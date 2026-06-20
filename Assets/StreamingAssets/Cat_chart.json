@@ -1,0 +1,5857 @@
+{
+  "audioFile": "Cat.wav",
+  "sampleRate": 48000,
+  "duration": 134.641,
+  "bpm": 75.0,
+  "offset": 1.5467,
+  "lanes": 4,
+  "levels": 4,
+  "noteCount": 835,
+  "notes": [
+    {
+      "time": 1.5467,
+      "strength": 0.54,
+      "intensity": 3,
+      "lane": 3,
+      "centroidHz": 4505.7
+    },
+    {
+      "time": 1.7493,
+      "strength": 0.4611,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3380.2
+    },
+    {
+      "time": 1.8453,
+      "strength": 0.2705,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2819.9
+    },
+    {
+      "time": 1.952,
+      "strength": 0.3715,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2428.8
+    },
+    {
+      "time": 2.144,
+      "strength": 0.2129,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2751.3
+    },
+    {
+      "time": 2.24,
+      "strength": 0.187,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2141.8
+    },
+    {
+      "time": 2.4533,
+      "strength": 0.1621,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2113.4
+    },
+    {
+      "time": 2.5493,
+      "strength": 0.3564,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 3051.8
+    },
+    {
+      "time": 2.6453,
+      "strength": 0.2398,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2661.9
+    },
+    {
+      "time": 2.752,
+      "strength": 0.3846,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2376.1
+    },
+    {
+      "time": 2.848,
+      "strength": 0.207,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2247.9
+    },
+    {
+      "time": 2.9547,
+      "strength": 0.213,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2668.2
+    },
+    {
+      "time": 3.1467,
+      "strength": 0.1275,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2042.8
+    },
+    {
+      "time": 3.3493,
+      "strength": 0.1865,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2132.5
+    },
+    {
+      "time": 3.552,
+      "strength": 0.1481,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1949.8
+    },
+    {
+      "time": 4.352,
+      "strength": 0.1533,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1698.4
+    },
+    {
+      "time": 4.5547,
+      "strength": 0.1195,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2024.0
+    },
+    {
+      "time": 4.7467,
+      "strength": 0.5481,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3989.4
+    },
+    {
+      "time": 4.9493,
+      "strength": 0.4801,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3526.1
+    },
+    {
+      "time": 5.0453,
+      "strength": 0.2911,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2758.1
+    },
+    {
+      "time": 5.152,
+      "strength": 0.3901,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2420.9
+    },
+    {
+      "time": 5.344,
+      "strength": 0.2026,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2519.2
+    },
+    {
+      "time": 5.4507,
+      "strength": 0.1895,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1925.4
+    },
+    {
+      "time": 5.6533,
+      "strength": 0.1834,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1848.7
+    },
+    {
+      "time": 5.7493,
+      "strength": 0.3956,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2934.4
+    },
+    {
+      "time": 5.8453,
+      "strength": 0.2378,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2563.2
+    },
+    {
+      "time": 5.952,
+      "strength": 0.3648,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2335.8
+    },
+    {
+      "time": 6.048,
+      "strength": 0.1951,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2129.6
+    },
+    {
+      "time": 6.1547,
+      "strength": 0.201,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2684.7
+    },
+    {
+      "time": 6.3467,
+      "strength": 0.1874,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2890.3
+    },
+    {
+      "time": 6.4427,
+      "strength": 0.1374,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2946.9
+    },
+    {
+      "time": 6.5493,
+      "strength": 0.1759,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 3111.6
+    },
+    {
+      "time": 6.752,
+      "strength": 0.1236,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2601.3
+    },
+    {
+      "time": 6.848,
+      "strength": 0.1561,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 3029.0
+    },
+    {
+      "time": 7.0507,
+      "strength": 0.132,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2424.8
+    },
+    {
+      "time": 7.9467,
+      "strength": 0.5502,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3764.4
+    },
+    {
+      "time": 8.1493,
+      "strength": 0.4511,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3389.3
+    },
+    {
+      "time": 8.2453,
+      "strength": 0.2847,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2677.3
+    },
+    {
+      "time": 8.352,
+      "strength": 0.3912,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2448.5
+    },
+    {
+      "time": 8.544,
+      "strength": 0.2041,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2624.7
+    },
+    {
+      "time": 8.64,
+      "strength": 0.1991,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1869.7
+    },
+    {
+      "time": 8.8533,
+      "strength": 0.1948,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2064.4
+    },
+    {
+      "time": 8.9493,
+      "strength": 0.3721,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 3034.7
+    },
+    {
+      "time": 9.0453,
+      "strength": 0.2475,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2664.8
+    },
+    {
+      "time": 9.152,
+      "strength": 0.3815,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2384.9
+    },
+    {
+      "time": 9.248,
+      "strength": 0.1965,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2271.2
+    },
+    {
+      "time": 9.3547,
+      "strength": 0.2155,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2823.0
+    },
+    {
+      "time": 9.5467,
+      "strength": 0.1305,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2022.4
+    },
+    {
+      "time": 9.7493,
+      "strength": 0.1983,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2020.5
+    },
+    {
+      "time": 9.952,
+      "strength": 0.1466,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2073.3
+    },
+    {
+      "time": 10.3467,
+      "strength": 0.1149,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2159.5
+    },
+    {
+      "time": 10.4533,
+      "strength": 0.1386,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2090.9
+    },
+    {
+      "time": 10.6453,
+      "strength": 0.1126,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1995.5
+    },
+    {
+      "time": 10.752,
+      "strength": 0.1272,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2489.3
+    },
+    {
+      "time": 10.9547,
+      "strength": 0.1376,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2828.5
+    },
+    {
+      "time": 11.1467,
+      "strength": 0.5385,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3782.1
+    },
+    {
+      "time": 11.3493,
+      "strength": 0.4649,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3392.6
+    },
+    {
+      "time": 11.4453,
+      "strength": 0.2654,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2667.8
+    },
+    {
+      "time": 11.552,
+      "strength": 0.3739,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2445.2
+    },
+    {
+      "time": 11.744,
+      "strength": 0.1955,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2678.8
+    },
+    {
+      "time": 11.84,
+      "strength": 0.1868,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1809.2
+    },
+    {
+      "time": 12.0533,
+      "strength": 0.1816,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1868.1
+    },
+    {
+      "time": 12.1493,
+      "strength": 0.383,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2868.5
+    },
+    {
+      "time": 12.2453,
+      "strength": 0.2435,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2589.6
+    },
+    {
+      "time": 12.352,
+      "strength": 0.3677,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2440.0
+    },
+    {
+      "time": 12.448,
+      "strength": 0.1875,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2307.2
+    },
+    {
+      "time": 12.5547,
+      "strength": 0.2117,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2801.2
+    },
+    {
+      "time": 14.3467,
+      "strength": 0.5813,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4235.9
+    },
+    {
+      "time": 14.5493,
+      "strength": 0.4898,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 3306.3
+    },
+    {
+      "time": 14.6453,
+      "strength": 0.3264,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2900.1
+    },
+    {
+      "time": 14.752,
+      "strength": 0.4082,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2612.6
+    },
+    {
+      "time": 14.848,
+      "strength": 0.23,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2584.7
+    },
+    {
+      "time": 14.944,
+      "strength": 0.2832,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 3096.4
+    },
+    {
+      "time": 15.04,
+      "strength": 0.2349,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2757.1
+    },
+    {
+      "time": 15.1467,
+      "strength": 0.1716,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 3069.3
+    },
+    {
+      "time": 15.2427,
+      "strength": 0.1864,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 3122.1
+    },
+    {
+      "time": 15.3493,
+      "strength": 0.4045,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 3279.1
+    },
+    {
+      "time": 15.4453,
+      "strength": 0.3218,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 3098.6
+    },
+    {
+      "time": 15.552,
+      "strength": 0.4085,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2713.4
+    },
+    {
+      "time": 15.648,
+      "strength": 0.2719,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2783.4
+    },
+    {
+      "time": 15.744,
+      "strength": 0.2448,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 3289.9
+    },
+    {
+      "time": 15.9467,
+      "strength": 0.2241,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3345.9
+    },
+    {
+      "time": 16.0427,
+      "strength": 0.1916,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 3282.5
+    },
+    {
+      "time": 16.1493,
+      "strength": 0.2552,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 3105.6
+    },
+    {
+      "time": 16.2453,
+      "strength": 0.1994,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3445.9
+    },
+    {
+      "time": 16.352,
+      "strength": 0.2115,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 3115.7
+    },
+    {
+      "time": 16.448,
+      "strength": 0.2194,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3325.5
+    },
+    {
+      "time": 16.544,
+      "strength": 0.1984,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3593.6
+    },
+    {
+      "time": 16.6507,
+      "strength": 0.2233,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 3045.5
+    },
+    {
+      "time": 16.7467,
+      "strength": 0.2124,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3554.4
+    },
+    {
+      "time": 16.8427,
+      "strength": 0.1911,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3669.8
+    },
+    {
+      "time": 16.9493,
+      "strength": 0.1962,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3329.5
+    },
+    {
+      "time": 17.0453,
+      "strength": 0.208,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3631.3
+    },
+    {
+      "time": 17.152,
+      "strength": 0.2125,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 3204.1
+    },
+    {
+      "time": 17.248,
+      "strength": 0.2119,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3557.1
+    },
+    {
+      "time": 17.344,
+      "strength": 0.2142,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3814.7
+    },
+    {
+      "time": 17.4507,
+      "strength": 0.2198,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3436.4
+    },
+    {
+      "time": 17.5467,
+      "strength": 0.5258,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4109.2
+    },
+    {
+      "time": 17.7493,
+      "strength": 0.49,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3758.6
+    },
+    {
+      "time": 17.8453,
+      "strength": 0.3633,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3491.3
+    },
+    {
+      "time": 17.952,
+      "strength": 0.3902,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 3105.6
+    },
+    {
+      "time": 18.048,
+      "strength": 0.258,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3408.5
+    },
+    {
+      "time": 18.144,
+      "strength": 0.3143,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3863.7
+    },
+    {
+      "time": 18.24,
+      "strength": 0.2726,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3703.2
+    },
+    {
+      "time": 18.3467,
+      "strength": 0.2371,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3984.8
+    },
+    {
+      "time": 18.4427,
+      "strength": 0.2293,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 4260.1
+    },
+    {
+      "time": 18.5493,
+      "strength": 0.4037,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3817.8
+    },
+    {
+      "time": 18.6453,
+      "strength": 0.361,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3876.8
+    },
+    {
+      "time": 18.752,
+      "strength": 0.3981,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 3307.0
+    },
+    {
+      "time": 18.848,
+      "strength": 0.31,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3553.9
+    },
+    {
+      "time": 18.944,
+      "strength": 0.2655,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4335.6
+    },
+    {
+      "time": 19.04,
+      "strength": 0.1991,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4410.3
+    },
+    {
+      "time": 19.1467,
+      "strength": 0.3007,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4244.8
+    },
+    {
+      "time": 19.2427,
+      "strength": 0.2487,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 4300.6
+    },
+    {
+      "time": 19.3493,
+      "strength": 0.2863,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4247.1
+    },
+    {
+      "time": 19.4453,
+      "strength": 0.2667,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4432.7
+    },
+    {
+      "time": 19.552,
+      "strength": 0.2213,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 4105.3
+    },
+    {
+      "time": 19.648,
+      "strength": 0.2775,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4278.2
+    },
+    {
+      "time": 19.744,
+      "strength": 0.2464,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4614.7
+    },
+    {
+      "time": 19.8507,
+      "strength": 0.2374,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 4089.2
+    },
+    {
+      "time": 19.9467,
+      "strength": 0.2357,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4442.1
+    },
+    {
+      "time": 20.0427,
+      "strength": 0.2332,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4604.8
+    },
+    {
+      "time": 20.1493,
+      "strength": 0.2547,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4428.9
+    },
+    {
+      "time": 20.2453,
+      "strength": 0.2693,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4718.1
+    },
+    {
+      "time": 20.3413,
+      "strength": 0.2475,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4860.2
+    },
+    {
+      "time": 20.448,
+      "strength": 0.2688,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4430.5
+    },
+    {
+      "time": 20.544,
+      "strength": 0.2541,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4731.2
+    },
+    {
+      "time": 20.64,
+      "strength": 0.2116,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 5001.1
+    },
+    {
+      "time": 20.7467,
+      "strength": 0.4778,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4660.2
+    },
+    {
+      "time": 20.8427,
+      "strength": 0.2435,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 4257.9
+    },
+    {
+      "time": 20.9493,
+      "strength": 0.5038,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4197.0
+    },
+    {
+      "time": 21.0453,
+      "strength": 0.3889,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4392.5
+    },
+    {
+      "time": 21.152,
+      "strength": 0.3981,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3923.7
+    },
+    {
+      "time": 21.248,
+      "strength": 0.2987,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4268.1
+    },
+    {
+      "time": 21.344,
+      "strength": 0.3472,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4713.7
+    },
+    {
+      "time": 21.44,
+      "strength": 0.293,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4601.7
+    },
+    {
+      "time": 21.5467,
+      "strength": 0.3411,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4657.1
+    },
+    {
+      "time": 21.6427,
+      "strength": 0.2744,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4652.9
+    },
+    {
+      "time": 21.7493,
+      "strength": 0.4986,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4370.2
+    },
+    {
+      "time": 21.8453,
+      "strength": 0.4162,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4432.0
+    },
+    {
+      "time": 21.952,
+      "strength": 0.4083,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4037.4
+    },
+    {
+      "time": 22.048,
+      "strength": 0.3281,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4255.7
+    },
+    {
+      "time": 22.144,
+      "strength": 0.3767,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4562.3
+    },
+    {
+      "time": 22.2507,
+      "strength": 0.3323,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4248.2
+    },
+    {
+      "time": 22.3467,
+      "strength": 0.3392,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4703.2
+    },
+    {
+      "time": 22.4427,
+      "strength": 0.2858,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4608.4
+    },
+    {
+      "time": 22.5493,
+      "strength": 0.4778,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4356.8
+    },
+    {
+      "time": 22.6453,
+      "strength": 0.3984,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4460.4
+    },
+    {
+      "time": 22.752,
+      "strength": 0.3894,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4164.2
+    },
+    {
+      "time": 22.848,
+      "strength": 0.3328,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4470.2
+    },
+    {
+      "time": 22.944,
+      "strength": 0.3845,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4585.1
+    },
+    {
+      "time": 23.0507,
+      "strength": 0.3199,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4374.2
+    },
+    {
+      "time": 23.1467,
+      "strength": 0.3684,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4643.3
+    },
+    {
+      "time": 23.2427,
+      "strength": 0.3179,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4557.5
+    },
+    {
+      "time": 23.3493,
+      "strength": 0.4521,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4434.9
+    },
+    {
+      "time": 23.4453,
+      "strength": 0.3854,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4649.4
+    },
+    {
+      "time": 23.552,
+      "strength": 0.3892,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4372.1
+    },
+    {
+      "time": 23.648,
+      "strength": 0.3414,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4510.0
+    },
+    {
+      "time": 23.744,
+      "strength": 0.3505,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4737.8
+    },
+    {
+      "time": 23.84,
+      "strength": 0.3218,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4627.1
+    },
+    {
+      "time": 23.9467,
+      "strength": 0.3884,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4944.7
+    },
+    {
+      "time": 24.0427,
+      "strength": 0.3394,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4616.3
+    },
+    {
+      "time": 24.1493,
+      "strength": 0.3076,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4729.3
+    },
+    {
+      "time": 24.2987,
+      "strength": 0.3088,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4715.7
+    },
+    {
+      "time": 24.448,
+      "strength": 0.352,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4580.7
+    },
+    {
+      "time": 24.544,
+      "strength": 0.2974,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4902.0
+    },
+    {
+      "time": 24.6933,
+      "strength": 0.3133,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4769.7
+    },
+    {
+      "time": 24.8427,
+      "strength": 0.3215,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4739.6
+    },
+    {
+      "time": 24.9387,
+      "strength": 0.2962,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4960.8
+    },
+    {
+      "time": 25.0453,
+      "strength": 0.3055,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4805.5
+    },
+    {
+      "time": 25.1413,
+      "strength": 0.3223,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4909.2
+    },
+    {
+      "time": 25.2373,
+      "strength": 0.2944,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4598.0
+    },
+    {
+      "time": 25.344,
+      "strength": 0.2925,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5062.5
+    },
+    {
+      "time": 25.44,
+      "strength": 0.2892,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4866.4
+    },
+    {
+      "time": 25.696,
+      "strength": 0.299,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4900.7
+    },
+    {
+      "time": 25.8453,
+      "strength": 0.313,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4912.9
+    },
+    {
+      "time": 25.9947,
+      "strength": 0.3462,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4858.1
+    },
+    {
+      "time": 26.2507,
+      "strength": 0.2945,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5094.0
+    },
+    {
+      "time": 26.5493,
+      "strength": 0.283,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5647.0
+    },
+    {
+      "time": 26.6453,
+      "strength": 0.2756,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5928.1
+    },
+    {
+      "time": 26.848,
+      "strength": 0.3055,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5963.6
+    },
+    {
+      "time": 26.9973,
+      "strength": 0.3596,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5356.7
+    },
+    {
+      "time": 27.104,
+      "strength": 0.3246,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5009.9
+    },
+    {
+      "time": 30.3467,
+      "strength": 0.2693,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2619.3
+    },
+    {
+      "time": 30.5493,
+      "strength": 0.4818,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3817.7
+    },
+    {
+      "time": 30.6453,
+      "strength": 0.2567,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2697.9
+    },
+    {
+      "time": 30.752,
+      "strength": 0.3161,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2566.5
+    },
+    {
+      "time": 30.9547,
+      "strength": 0.154,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2781.1
+    },
+    {
+      "time": 31.04,
+      "strength": 0.1428,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2139.0
+    },
+    {
+      "time": 31.2533,
+      "strength": 0.1709,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2145.9
+    },
+    {
+      "time": 31.3493,
+      "strength": 0.3563,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 3170.4
+    },
+    {
+      "time": 31.4453,
+      "strength": 0.2373,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2919.0
+    },
+    {
+      "time": 31.552,
+      "strength": 0.3051,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2491.8
+    },
+    {
+      "time": 31.648,
+      "strength": 0.1391,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2435.0
+    },
+    {
+      "time": 31.7547,
+      "strength": 0.181,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 3148.6
+    },
+    {
+      "time": 31.9467,
+      "strength": 0.4354,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4796.1
+    },
+    {
+      "time": 32.0427,
+      "strength": 0.192,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 5094.6
+    },
+    {
+      "time": 32.1493,
+      "strength": 0.496,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4506.6
+    },
+    {
+      "time": 32.2453,
+      "strength": 0.3444,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4738.9
+    },
+    {
+      "time": 32.352,
+      "strength": 0.3751,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4138.8
+    },
+    {
+      "time": 32.448,
+      "strength": 0.2423,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4626.9
+    },
+    {
+      "time": 32.544,
+      "strength": 0.2824,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5763.4
+    },
+    {
+      "time": 32.64,
+      "strength": 0.2684,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5845.7
+    },
+    {
+      "time": 32.7467,
+      "strength": 0.2439,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 7075.3
+    },
+    {
+      "time": 32.8427,
+      "strength": 0.2641,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 7872.9
+    },
+    {
+      "time": 32.9493,
+      "strength": 0.3453,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 6160.8
+    },
+    {
+      "time": 33.0453,
+      "strength": 0.3641,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5160.7
+    },
+    {
+      "time": 33.1413,
+      "strength": 0.4423,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5190.5
+    },
+    {
+      "time": 33.248,
+      "strength": 0.5961,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4264.1
+    },
+    {
+      "time": 33.344,
+      "strength": 0.5311,
+      "intensity": 3,
+      "lane": 3,
+      "centroidHz": 4394.3
+    },
+    {
+      "time": 33.4507,
+      "strength": 0.6194,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4013.7
+    },
+    {
+      "time": 33.5467,
+      "strength": 0.8491,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4334.5
+    },
+    {
+      "time": 33.7493,
+      "strength": 0.6608,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4306.9
+    },
+    {
+      "time": 33.8453,
+      "strength": 0.6258,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4223.2
+    },
+    {
+      "time": 33.9413,
+      "strength": 0.5847,
+      "intensity": 3,
+      "lane": 3,
+      "centroidHz": 4549.1
+    },
+    {
+      "time": 34.144,
+      "strength": 0.6274,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 3009.9
+    },
+    {
+      "time": 34.24,
+      "strength": 0.5556,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 2703.7
+    },
+    {
+      "time": 34.3467,
+      "strength": 0.7729,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3682.3
+    },
+    {
+      "time": 34.5493,
+      "strength": 0.6315,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 3077.7
+    },
+    {
+      "time": 34.6453,
+      "strength": 0.7903,
+      "intensity": 4,
+      "lane": 1,
+      "centroidHz": 2906.9
+    },
+    {
+      "time": 34.7413,
+      "strength": 0.8014,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3685.7
+    },
+    {
+      "time": 34.944,
+      "strength": 0.6682,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 2971.2
+    },
+    {
+      "time": 35.04,
+      "strength": 0.5821,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 2757.0
+    },
+    {
+      "time": 35.1467,
+      "strength": 0.7751,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3746.6
+    },
+    {
+      "time": 35.3493,
+      "strength": 0.7343,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3365.5
+    },
+    {
+      "time": 35.4453,
+      "strength": 0.7484,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 2831.4
+    },
+    {
+      "time": 35.5413,
+      "strength": 0.8118,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3696.6
+    },
+    {
+      "time": 35.744,
+      "strength": 0.6691,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 3012.0
+    },
+    {
+      "time": 35.84,
+      "strength": 0.6324,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 2656.4
+    },
+    {
+      "time": 35.9467,
+      "strength": 0.7809,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3766.1
+    },
+    {
+      "time": 36.1493,
+      "strength": 0.6415,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 3081.2
+    },
+    {
+      "time": 36.2453,
+      "strength": 0.8099,
+      "intensity": 4,
+      "lane": 1,
+      "centroidHz": 3217.1
+    },
+    {
+      "time": 36.3413,
+      "strength": 0.7878,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4126.3
+    },
+    {
+      "time": 36.448,
+      "strength": 0.2008,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2889.5
+    },
+    {
+      "time": 36.544,
+      "strength": 0.7176,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3711.7
+    },
+    {
+      "time": 36.64,
+      "strength": 0.644,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 3132.5
+    },
+    {
+      "time": 36.7467,
+      "strength": 0.7756,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3823.0
+    },
+    {
+      "time": 36.9493,
+      "strength": 0.7508,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3382.8
+    },
+    {
+      "time": 37.0453,
+      "strength": 0.7476,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 2829.6
+    },
+    {
+      "time": 37.1413,
+      "strength": 0.8387,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3702.9
+    },
+    {
+      "time": 37.344,
+      "strength": 0.6753,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 2986.5
+    },
+    {
+      "time": 37.44,
+      "strength": 0.6467,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 2631.4
+    },
+    {
+      "time": 37.5467,
+      "strength": 0.7825,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3693.8
+    },
+    {
+      "time": 37.7493,
+      "strength": 0.6309,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 3062.4
+    },
+    {
+      "time": 37.8453,
+      "strength": 0.8043,
+      "intensity": 4,
+      "lane": 1,
+      "centroidHz": 2875.9
+    },
+    {
+      "time": 37.9413,
+      "strength": 0.8412,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3671.1
+    },
+    {
+      "time": 38.144,
+      "strength": 0.679,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 2952.9
+    },
+    {
+      "time": 38.24,
+      "strength": 0.6313,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 2734.0
+    },
+    {
+      "time": 38.3467,
+      "strength": 0.7851,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3774.8
+    },
+    {
+      "time": 38.5493,
+      "strength": 0.7439,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3375.0
+    },
+    {
+      "time": 38.6453,
+      "strength": 0.7554,
+      "intensity": 4,
+      "lane": 1,
+      "centroidHz": 2821.5
+    },
+    {
+      "time": 38.7413,
+      "strength": 0.8437,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3718.7
+    },
+    {
+      "time": 38.944,
+      "strength": 0.7438,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3435.4
+    },
+    {
+      "time": 39.04,
+      "strength": 0.6143,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 2655.2
+    },
+    {
+      "time": 39.1467,
+      "strength": 0.8422,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3779.8
+    },
+    {
+      "time": 39.3493,
+      "strength": 0.6387,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 3059.8
+    },
+    {
+      "time": 39.4453,
+      "strength": 0.7992,
+      "intensity": 4,
+      "lane": 1,
+      "centroidHz": 2935.1
+    },
+    {
+      "time": 39.5413,
+      "strength": 0.8565,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3996.9
+    },
+    {
+      "time": 39.744,
+      "strength": 0.1216,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2000.7
+    },
+    {
+      "time": 39.8507,
+      "strength": 0.3627,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2648.4
+    },
+    {
+      "time": 39.9467,
+      "strength": 0.8109,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4043.0
+    },
+    {
+      "time": 40.1493,
+      "strength": 0.9104,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4886.6
+    },
+    {
+      "time": 40.2453,
+      "strength": 0.7361,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3422.5
+    },
+    {
+      "time": 40.3413,
+      "strength": 0.7983,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3615.2
+    },
+    {
+      "time": 40.448,
+      "strength": 0.2666,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3790.6
+    },
+    {
+      "time": 40.544,
+      "strength": 0.8745,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4838.2
+    },
+    {
+      "time": 40.64,
+      "strength": 0.6036,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3335.2
+    },
+    {
+      "time": 40.7467,
+      "strength": 0.8172,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4006.6
+    },
+    {
+      "time": 40.8533,
+      "strength": 0.2684,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4179.3
+    },
+    {
+      "time": 40.9493,
+      "strength": 0.8649,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 5024.6
+    },
+    {
+      "time": 41.0453,
+      "strength": 0.7938,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3465.0
+    },
+    {
+      "time": 41.1413,
+      "strength": 0.8521,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3937.4
+    },
+    {
+      "time": 41.248,
+      "strength": 0.3052,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3788.0
+    },
+    {
+      "time": 41.344,
+      "strength": 0.9094,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4867.7
+    },
+    {
+      "time": 41.44,
+      "strength": 0.5978,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3538.2
+    },
+    {
+      "time": 41.5467,
+      "strength": 0.818,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4078.8
+    },
+    {
+      "time": 41.6427,
+      "strength": 0.2371,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3438.4
+    },
+    {
+      "time": 41.7493,
+      "strength": 0.9375,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4927.7
+    },
+    {
+      "time": 41.8453,
+      "strength": 0.7801,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3427.7
+    },
+    {
+      "time": 41.9413,
+      "strength": 0.8566,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3929.8
+    },
+    {
+      "time": 42.048,
+      "strength": 0.2737,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3909.6
+    },
+    {
+      "time": 42.144,
+      "strength": 0.9316,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4927.5
+    },
+    {
+      "time": 42.24,
+      "strength": 0.6088,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3333.0
+    },
+    {
+      "time": 42.3467,
+      "strength": 0.81,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3977.5
+    },
+    {
+      "time": 42.4533,
+      "strength": 0.2697,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4145.5
+    },
+    {
+      "time": 42.5493,
+      "strength": 0.8706,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 5048.4
+    },
+    {
+      "time": 42.6453,
+      "strength": 0.8195,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3499.9
+    },
+    {
+      "time": 42.7413,
+      "strength": 0.8359,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4081.5
+    },
+    {
+      "time": 42.848,
+      "strength": 0.2468,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4638.6
+    },
+    {
+      "time": 42.944,
+      "strength": 0.915,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4996.8
+    },
+    {
+      "time": 43.04,
+      "strength": 0.6314,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3505.4
+    },
+    {
+      "time": 43.1467,
+      "strength": 0.8226,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4109.8
+    },
+    {
+      "time": 43.2427,
+      "strength": 0.2321,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3421.3
+    },
+    {
+      "time": 43.3493,
+      "strength": 0.951,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4996.5
+    },
+    {
+      "time": 43.4453,
+      "strength": 0.7916,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3530.6
+    },
+    {
+      "time": 43.5413,
+      "strength": 0.8637,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4021.9
+    },
+    {
+      "time": 43.648,
+      "strength": 0.2631,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3846.9
+    },
+    {
+      "time": 43.744,
+      "strength": 0.9082,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4875.7
+    },
+    {
+      "time": 43.84,
+      "strength": 0.6276,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3353.6
+    },
+    {
+      "time": 43.9467,
+      "strength": 0.8104,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4049.4
+    },
+    {
+      "time": 44.0427,
+      "strength": 0.2697,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3991.9
+    },
+    {
+      "time": 44.1493,
+      "strength": 0.8772,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 5013.7
+    },
+    {
+      "time": 44.2453,
+      "strength": 0.8062,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3499.9
+    },
+    {
+      "time": 44.3413,
+      "strength": 0.8695,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4013.4
+    },
+    {
+      "time": 44.448,
+      "strength": 0.2972,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3799.4
+    },
+    {
+      "time": 44.544,
+      "strength": 0.9064,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4959.4
+    },
+    {
+      "time": 44.64,
+      "strength": 0.5981,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3503.7
+    },
+    {
+      "time": 44.7467,
+      "strength": 0.8019,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4013.3
+    },
+    {
+      "time": 44.8427,
+      "strength": 0.3121,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 3045.2
+    },
+    {
+      "time": 44.9493,
+      "strength": 0.9195,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4756.7
+    },
+    {
+      "time": 45.0453,
+      "strength": 0.7345,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3373.4
+    },
+    {
+      "time": 45.1413,
+      "strength": 0.6919,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3755.1
+    },
+    {
+      "time": 45.248,
+      "strength": 0.3838,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3540.5
+    },
+    {
+      "time": 45.344,
+      "strength": 0.8117,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4805.5
+    },
+    {
+      "time": 45.44,
+      "strength": 0.5588,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3898.7
+    },
+    {
+      "time": 45.5467,
+      "strength": 0.3621,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5213.3
+    },
+    {
+      "time": 45.6427,
+      "strength": 0.4177,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 6743.4
+    },
+    {
+      "time": 45.7493,
+      "strength": 0.6483,
+      "intensity": 3,
+      "lane": 3,
+      "centroidHz": 5664.9
+    },
+    {
+      "time": 45.8453,
+      "strength": 0.6841,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4090.8
+    },
+    {
+      "time": 45.9413,
+      "strength": 0.5189,
+      "intensity": 3,
+      "lane": 3,
+      "centroidHz": 4395.6
+    },
+    {
+      "time": 46.048,
+      "strength": 0.6652,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4297.8
+    },
+    {
+      "time": 46.144,
+      "strength": 0.6817,
+      "intensity": 3,
+      "lane": 3,
+      "centroidHz": 5534.1
+    },
+    {
+      "time": 46.2507,
+      "strength": 0.6208,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4150.2
+    },
+    {
+      "time": 46.3467,
+      "strength": 0.7064,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4022.9
+    },
+    {
+      "time": 46.5493,
+      "strength": 0.863,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 5311.0
+    },
+    {
+      "time": 46.6453,
+      "strength": 0.7753,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4160.9
+    },
+    {
+      "time": 46.7413,
+      "strength": 0.6427,
+      "intensity": 3,
+      "lane": 3,
+      "centroidHz": 4542.9
+    },
+    {
+      "time": 46.944,
+      "strength": 0.8974,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4421.1
+    },
+    {
+      "time": 47.04,
+      "strength": 0.6308,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3478.6
+    },
+    {
+      "time": 47.1467,
+      "strength": 0.7975,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4039.1
+    },
+    {
+      "time": 47.2533,
+      "strength": 0.3134,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3959.5
+    },
+    {
+      "time": 47.3493,
+      "strength": 0.8631,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 5008.9
+    },
+    {
+      "time": 47.4453,
+      "strength": 0.9095,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3718.3
+    },
+    {
+      "time": 47.5413,
+      "strength": 0.8402,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4008.9
+    },
+    {
+      "time": 47.744,
+      "strength": 0.9684,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4509.7
+    },
+    {
+      "time": 47.84,
+      "strength": 0.6023,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3706.4
+    },
+    {
+      "time": 47.9467,
+      "strength": 0.8206,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4063.7
+    },
+    {
+      "time": 48.0427,
+      "strength": 0.2758,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3585.2
+    },
+    {
+      "time": 48.1493,
+      "strength": 0.9395,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 5078.7
+    },
+    {
+      "time": 48.2453,
+      "strength": 0.9162,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3869.1
+    },
+    {
+      "time": 48.3413,
+      "strength": 0.852,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4104.4
+    },
+    {
+      "time": 48.544,
+      "strength": 0.9453,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4493.9
+    },
+    {
+      "time": 48.64,
+      "strength": 0.6098,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3395.7
+    },
+    {
+      "time": 48.7467,
+      "strength": 0.8064,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4022.7
+    },
+    {
+      "time": 48.8533,
+      "strength": 0.3729,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3831.5
+    },
+    {
+      "time": 48.9493,
+      "strength": 0.8852,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4730.9
+    },
+    {
+      "time": 49.0453,
+      "strength": 0.8401,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3643.2
+    },
+    {
+      "time": 49.1413,
+      "strength": 0.7451,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4346.5
+    },
+    {
+      "time": 49.344,
+      "strength": 0.9666,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4851.6
+    },
+    {
+      "time": 49.4507,
+      "strength": 0.6164,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4070.8
+    },
+    {
+      "time": 49.5467,
+      "strength": 0.794,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4153.4
+    },
+    {
+      "time": 49.6427,
+      "strength": 0.3183,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3645.6
+    },
+    {
+      "time": 49.7493,
+      "strength": 0.9613,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4972.3
+    },
+    {
+      "time": 49.8453,
+      "strength": 0.9415,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3825.9
+    },
+    {
+      "time": 49.9413,
+      "strength": 0.8383,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4046.9
+    },
+    {
+      "time": 50.144,
+      "strength": 0.9275,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4495.3
+    },
+    {
+      "time": 50.24,
+      "strength": 0.6292,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3474.8
+    },
+    {
+      "time": 50.3467,
+      "strength": 0.8083,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4044.7
+    },
+    {
+      "time": 50.4533,
+      "strength": 0.2874,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3990.6
+    },
+    {
+      "time": 50.5493,
+      "strength": 0.8523,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 5048.0
+    },
+    {
+      "time": 50.6453,
+      "strength": 0.9164,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3777.8
+    },
+    {
+      "time": 50.7413,
+      "strength": 0.8194,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4012.8
+    },
+    {
+      "time": 50.944,
+      "strength": 0.9712,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4475.0
+    },
+    {
+      "time": 51.04,
+      "strength": 0.5916,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3606.2
+    },
+    {
+      "time": 51.1467,
+      "strength": 0.8183,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4137.9
+    },
+    {
+      "time": 51.2427,
+      "strength": 0.282,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3628.3
+    },
+    {
+      "time": 51.3493,
+      "strength": 0.964,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4901.6
+    },
+    {
+      "time": 51.4453,
+      "strength": 0.9276,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3889.9
+    },
+    {
+      "time": 51.5413,
+      "strength": 0.8404,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4123.7
+    },
+    {
+      "time": 51.648,
+      "strength": 0.2932,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4119.0
+    },
+    {
+      "time": 51.744,
+      "strength": 0.9641,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4474.6
+    },
+    {
+      "time": 51.84,
+      "strength": 0.6089,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3475.4
+    },
+    {
+      "time": 51.9467,
+      "strength": 0.8613,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4092.8
+    },
+    {
+      "time": 52.0427,
+      "strength": 0.304,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3859.4
+    },
+    {
+      "time": 52.1493,
+      "strength": 0.9238,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4807.6
+    },
+    {
+      "time": 52.2453,
+      "strength": 0.8351,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3705.6
+    },
+    {
+      "time": 52.3413,
+      "strength": 0.8699,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4319.2
+    },
+    {
+      "time": 52.544,
+      "strength": 0.8621,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 5201.3
+    },
+    {
+      "time": 52.6507,
+      "strength": 0.5475,
+      "intensity": 3,
+      "lane": 3,
+      "centroidHz": 4469.8
+    },
+    {
+      "time": 52.7467,
+      "strength": 0.8027,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4056.7
+    },
+    {
+      "time": 52.9493,
+      "strength": 0.8964,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 5036.0
+    },
+    {
+      "time": 53.0453,
+      "strength": 0.8534,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3823.4
+    },
+    {
+      "time": 53.1413,
+      "strength": 0.7133,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3879.3
+    },
+    {
+      "time": 53.344,
+      "strength": 0.8955,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4474.4
+    },
+    {
+      "time": 53.44,
+      "strength": 0.6166,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3515.6
+    },
+    {
+      "time": 53.5467,
+      "strength": 0.8051,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4013.5
+    },
+    {
+      "time": 53.6533,
+      "strength": 0.2798,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4194.4
+    },
+    {
+      "time": 53.7493,
+      "strength": 0.9021,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4912.1
+    },
+    {
+      "time": 53.8453,
+      "strength": 0.9126,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3713.4
+    },
+    {
+      "time": 53.9413,
+      "strength": 0.8248,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4009.2
+    },
+    {
+      "time": 54.144,
+      "strength": 0.963,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4537.4
+    },
+    {
+      "time": 54.24,
+      "strength": 0.5906,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3681.5
+    },
+    {
+      "time": 54.3467,
+      "strength": 0.8153,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4076.7
+    },
+    {
+      "time": 54.4427,
+      "strength": 0.3361,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3667.4
+    },
+    {
+      "time": 54.5493,
+      "strength": 0.9681,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4882.7
+    },
+    {
+      "time": 54.6453,
+      "strength": 0.9193,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3792.4
+    },
+    {
+      "time": 54.7413,
+      "strength": 0.8403,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4116.7
+    },
+    {
+      "time": 54.944,
+      "strength": 0.8955,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4274.5
+    },
+    {
+      "time": 55.04,
+      "strength": 0.5957,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3397.6
+    },
+    {
+      "time": 55.1467,
+      "strength": 0.8045,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3954.3
+    },
+    {
+      "time": 55.2533,
+      "strength": 0.2894,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4117.6
+    },
+    {
+      "time": 55.3493,
+      "strength": 0.866,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4896.0
+    },
+    {
+      "time": 55.4453,
+      "strength": 0.8501,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3572.1
+    },
+    {
+      "time": 55.5413,
+      "strength": 0.7154,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4128.6
+    },
+    {
+      "time": 55.744,
+      "strength": 0.9445,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4774.6
+    },
+    {
+      "time": 55.8507,
+      "strength": 0.588,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3793.4
+    },
+    {
+      "time": 55.9467,
+      "strength": 0.8079,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4125.9
+    },
+    {
+      "time": 56.0427,
+      "strength": 0.2735,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3633.1
+    },
+    {
+      "time": 56.1493,
+      "strength": 0.9582,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4931.1
+    },
+    {
+      "time": 56.2453,
+      "strength": 0.9247,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3747.4
+    },
+    {
+      "time": 56.3413,
+      "strength": 0.829,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4031.2
+    },
+    {
+      "time": 56.448,
+      "strength": 0.2809,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4138.7
+    },
+    {
+      "time": 56.544,
+      "strength": 0.9256,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4486.7
+    },
+    {
+      "time": 56.64,
+      "strength": 0.6041,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3446.1
+    },
+    {
+      "time": 56.7467,
+      "strength": 0.8194,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4039.2
+    },
+    {
+      "time": 56.8533,
+      "strength": 0.3151,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3931.0
+    },
+    {
+      "time": 56.9493,
+      "strength": 0.8574,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 5080.5
+    },
+    {
+      "time": 57.0453,
+      "strength": 0.8806,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3802.5
+    },
+    {
+      "time": 57.1413,
+      "strength": 0.836,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4047.9
+    },
+    {
+      "time": 57.344,
+      "strength": 0.9529,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4460.1
+    },
+    {
+      "time": 57.44,
+      "strength": 0.5537,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3616.0
+    },
+    {
+      "time": 57.5467,
+      "strength": 0.7987,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4197.2
+    },
+    {
+      "time": 57.7493,
+      "strength": 0.9985,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 5285.9
+    },
+    {
+      "time": 57.8453,
+      "strength": 0.9058,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4184.8
+    },
+    {
+      "time": 57.9413,
+      "strength": 0.7792,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4181.0
+    },
+    {
+      "time": 58.144,
+      "strength": 1.0,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4773.4
+    },
+    {
+      "time": 58.2507,
+      "strength": 0.5748,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3968.4
+    },
+    {
+      "time": 58.3467,
+      "strength": 0.7186,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4097.6
+    },
+    {
+      "time": 58.4533,
+      "strength": 0.311,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4830.8
+    },
+    {
+      "time": 58.5493,
+      "strength": 0.8949,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4849.0
+    },
+    {
+      "time": 58.6453,
+      "strength": 0.7395,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3789.0
+    },
+    {
+      "time": 58.7413,
+      "strength": 0.6841,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4204.3
+    },
+    {
+      "time": 58.944,
+      "strength": 0.7513,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 5244.9
+    },
+    {
+      "time": 59.0507,
+      "strength": 0.4163,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4399.2
+    },
+    {
+      "time": 59.3493,
+      "strength": 0.32,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2348.9
+    },
+    {
+      "time": 59.744,
+      "strength": 0.1831,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2031.0
+    },
+    {
+      "time": 60.1493,
+      "strength": 0.1443,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1840.1
+    },
+    {
+      "time": 62.3467,
+      "strength": 0.1742,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1130.5
+    },
+    {
+      "time": 62.752,
+      "strength": 0.141,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1105.0
+    },
+    {
+      "time": 62.9547,
+      "strength": 0.274,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1452.4
+    },
+    {
+      "time": 63.0613,
+      "strength": 0.1649,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1408.8
+    },
+    {
+      "time": 63.3493,
+      "strength": 0.1522,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1324.5
+    },
+    {
+      "time": 63.552,
+      "strength": 0.2906,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1380.3
+    },
+    {
+      "time": 64.1493,
+      "strength": 0.1283,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1338.7
+    },
+    {
+      "time": 64.6507,
+      "strength": 0.1157,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1254.4
+    },
+    {
+      "time": 64.9493,
+      "strength": 0.331,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1555.8
+    },
+    {
+      "time": 65.056,
+      "strength": 0.2939,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1549.8
+    },
+    {
+      "time": 65.152,
+      "strength": 0.3616,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1640.0
+    },
+    {
+      "time": 65.3547,
+      "strength": 0.3828,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1579.7
+    },
+    {
+      "time": 65.4507,
+      "strength": 0.1872,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1475.5
+    },
+    {
+      "time": 65.5573,
+      "strength": 0.1881,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1397.1
+    },
+    {
+      "time": 65.952,
+      "strength": 0.1825,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1511.8
+    },
+    {
+      "time": 66.1547,
+      "strength": 0.3363,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1774.5
+    },
+    {
+      "time": 66.5493,
+      "strength": 0.2068,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1635.1
+    },
+    {
+      "time": 66.752,
+      "strength": 0.3088,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1645.2
+    },
+    {
+      "time": 66.8587,
+      "strength": 0.1578,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1553.8
+    },
+    {
+      "time": 67.1573,
+      "strength": 0.146,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1766.3
+    },
+    {
+      "time": 68.1493,
+      "strength": 0.3801,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1688.2
+    },
+    {
+      "time": 68.256,
+      "strength": 0.2874,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1681.0
+    },
+    {
+      "time": 68.352,
+      "strength": 0.3572,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1786.8
+    },
+    {
+      "time": 68.5547,
+      "strength": 0.3189,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1677.5
+    },
+    {
+      "time": 68.7573,
+      "strength": 0.2526,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1605.7
+    },
+    {
+      "time": 69.152,
+      "strength": 0.247,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1766.6
+    },
+    {
+      "time": 69.3547,
+      "strength": 0.3895,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1762.8
+    },
+    {
+      "time": 69.4613,
+      "strength": 0.2045,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1669.0
+    },
+    {
+      "time": 69.7493,
+      "strength": 0.2269,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1831.1
+    },
+    {
+      "time": 69.952,
+      "strength": 0.4015,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1696.4
+    },
+    {
+      "time": 70.1547,
+      "strength": 0.1614,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1753.0
+    },
+    {
+      "time": 70.3573,
+      "strength": 0.1356,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1689.8
+    },
+    {
+      "time": 70.5493,
+      "strength": 0.1392,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1523.7
+    },
+    {
+      "time": 71.3493,
+      "strength": 0.3982,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1686.0
+    },
+    {
+      "time": 71.552,
+      "strength": 0.4321,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1904.9
+    },
+    {
+      "time": 71.7547,
+      "strength": 0.3781,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1782.2
+    },
+    {
+      "time": 71.8507,
+      "strength": 0.2213,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1725.7
+    },
+    {
+      "time": 71.9467,
+      "strength": 0.2777,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1630.2
+    },
+    {
+      "time": 72.352,
+      "strength": 0.2703,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1946.0
+    },
+    {
+      "time": 72.5547,
+      "strength": 0.4252,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 2190.5
+    },
+    {
+      "time": 72.9493,
+      "strength": 0.2628,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 2029.1
+    },
+    {
+      "time": 73.152,
+      "strength": 0.4053,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1776.3
+    },
+    {
+      "time": 75.1467,
+      "strength": 0.4487,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3965.6
+    },
+    {
+      "time": 75.552,
+      "strength": 0.4856,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3703.7
+    },
+    {
+      "time": 75.744,
+      "strength": 0.194,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2166.3
+    },
+    {
+      "time": 75.9573,
+      "strength": 0.371,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2552.9
+    },
+    {
+      "time": 76.3627,
+      "strength": 0.1873,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2349.4
+    },
+    {
+      "time": 76.5547,
+      "strength": 0.152,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1853.7
+    },
+    {
+      "time": 76.96,
+      "strength": 0.1916,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1674.1
+    },
+    {
+      "time": 77.152,
+      "strength": 0.3112,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2796.3
+    },
+    {
+      "time": 77.3547,
+      "strength": 0.2225,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2653.6
+    },
+    {
+      "time": 77.5573,
+      "strength": 0.3393,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2524.1
+    },
+    {
+      "time": 77.9627,
+      "strength": 0.1621,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 5897.8
+    },
+    {
+      "time": 78.3467,
+      "strength": 0.4844,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4464.2
+    },
+    {
+      "time": 79.8507,
+      "strength": 0.0977,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2626.3
+    },
+    {
+      "time": 79.9467,
+      "strength": 0.1304,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3919.6
+    },
+    {
+      "time": 80.0427,
+      "strength": 0.1412,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 4152.5
+    },
+    {
+      "time": 80.1493,
+      "strength": 0.1228,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3966.4
+    },
+    {
+      "time": 80.448,
+      "strength": 0.1409,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3932.8
+    },
+    {
+      "time": 81.1413,
+      "strength": 0.1671,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4778.4
+    },
+    {
+      "time": 81.5467,
+      "strength": 0.566,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4012.8
+    },
+    {
+      "time": 81.952,
+      "strength": 0.4873,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3672.5
+    },
+    {
+      "time": 82.144,
+      "strength": 0.1933,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2240.7
+    },
+    {
+      "time": 82.3573,
+      "strength": 0.3651,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2614.1
+    },
+    {
+      "time": 82.7627,
+      "strength": 0.182,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2419.4
+    },
+    {
+      "time": 82.9547,
+      "strength": 0.15,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1913.5
+    },
+    {
+      "time": 83.36,
+      "strength": 0.1928,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1738.5
+    },
+    {
+      "time": 83.552,
+      "strength": 0.3062,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2802.3
+    },
+    {
+      "time": 83.7547,
+      "strength": 0.2259,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2649.3
+    },
+    {
+      "time": 83.9573,
+      "strength": 0.3486,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2505.2
+    },
+    {
+      "time": 84.3627,
+      "strength": 0.1661,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 5729.7
+    },
+    {
+      "time": 84.7467,
+      "strength": 0.468,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4487.6
+    },
+    {
+      "time": 84.9493,
+      "strength": 0.1309,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2494.8
+    },
+    {
+      "time": 85.5467,
+      "strength": 0.0984,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2695.6
+    },
+    {
+      "time": 85.6533,
+      "strength": 0.1045,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2691.7
+    },
+    {
+      "time": 86.1547,
+      "strength": 0.105,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3698.0
+    },
+    {
+      "time": 86.2507,
+      "strength": 0.1175,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 4168.1
+    },
+    {
+      "time": 87.9467,
+      "strength": 0.5945,
+      "intensity": 3,
+      "lane": 3,
+      "centroidHz": 4542.9
+    },
+    {
+      "time": 88.1493,
+      "strength": 0.4246,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 3006.3
+    },
+    {
+      "time": 88.2453,
+      "strength": 0.2792,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 3000.0
+    },
+    {
+      "time": 88.448,
+      "strength": 0.1629,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 3084.8
+    },
+    {
+      "time": 88.544,
+      "strength": 0.1573,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3397.0
+    },
+    {
+      "time": 88.64,
+      "strength": 0.156,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 3151.7
+    },
+    {
+      "time": 88.7467,
+      "strength": 0.2981,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2747.6
+    },
+    {
+      "time": 88.9493,
+      "strength": 0.4426,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 3229.1
+    },
+    {
+      "time": 89.0453,
+      "strength": 0.2942,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 3027.0
+    },
+    {
+      "time": 89.248,
+      "strength": 0.1818,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 3239.6
+    },
+    {
+      "time": 89.344,
+      "strength": 0.2021,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3382.0
+    },
+    {
+      "time": 89.5467,
+      "strength": 0.3288,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 3003.9
+    },
+    {
+      "time": 89.6427,
+      "strength": 0.1817,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 3144.0
+    },
+    {
+      "time": 89.7493,
+      "strength": 0.4654,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 3123.2
+    },
+    {
+      "time": 89.8453,
+      "strength": 0.2792,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3323.5
+    },
+    {
+      "time": 89.9413,
+      "strength": 0.1803,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3640.9
+    },
+    {
+      "time": 90.048,
+      "strength": 0.199,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3487.5
+    },
+    {
+      "time": 90.144,
+      "strength": 0.171,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3641.0
+    },
+    {
+      "time": 90.2507,
+      "strength": 0.1991,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3343.7
+    },
+    {
+      "time": 90.3467,
+      "strength": 0.3358,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3423.2
+    },
+    {
+      "time": 90.4427,
+      "strength": 0.1829,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3422.1
+    },
+    {
+      "time": 90.5493,
+      "strength": 0.569,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3794.1
+    },
+    {
+      "time": 90.6453,
+      "strength": 0.3727,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3441.2
+    },
+    {
+      "time": 90.752,
+      "strength": 0.4237,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2944.5
+    },
+    {
+      "time": 90.848,
+      "strength": 0.2438,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 3195.3
+    },
+    {
+      "time": 90.944,
+      "strength": 0.2896,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3808.7
+    },
+    {
+      "time": 91.0507,
+      "strength": 0.2881,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 3158.6
+    },
+    {
+      "time": 91.1467,
+      "strength": 0.5209,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4041.5
+    },
+    {
+      "time": 91.3493,
+      "strength": 0.4012,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3571.6
+    },
+    {
+      "time": 91.4453,
+      "strength": 0.317,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3645.3
+    },
+    {
+      "time": 91.5413,
+      "strength": 0.1841,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 4191.9
+    },
+    {
+      "time": 91.648,
+      "strength": 0.2112,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3977.8
+    },
+    {
+      "time": 91.744,
+      "strength": 0.2001,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 4231.6
+    },
+    {
+      "time": 91.84,
+      "strength": 0.1815,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4418.8
+    },
+    {
+      "time": 91.9467,
+      "strength": 0.3203,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3783.3
+    },
+    {
+      "time": 92.0427,
+      "strength": 0.2018,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3811.7
+    },
+    {
+      "time": 92.1493,
+      "strength": 0.4185,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3731.5
+    },
+    {
+      "time": 92.2453,
+      "strength": 0.3278,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3867.2
+    },
+    {
+      "time": 92.3413,
+      "strength": 0.2232,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4478.7
+    },
+    {
+      "time": 92.448,
+      "strength": 0.2279,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 4304.3
+    },
+    {
+      "time": 92.544,
+      "strength": 0.2381,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 4282.9
+    },
+    {
+      "time": 92.64,
+      "strength": 0.2003,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4744.8
+    },
+    {
+      "time": 92.7467,
+      "strength": 0.3693,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3981.9
+    },
+    {
+      "time": 92.8427,
+      "strength": 0.2468,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3977.1
+    },
+    {
+      "time": 92.9493,
+      "strength": 0.4499,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3784.1
+    },
+    {
+      "time": 93.0453,
+      "strength": 0.322,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4162.6
+    },
+    {
+      "time": 93.1413,
+      "strength": 0.2301,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4537.1
+    },
+    {
+      "time": 93.248,
+      "strength": 0.2664,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4241.6
+    },
+    {
+      "time": 93.344,
+      "strength": 0.2419,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4548.3
+    },
+    {
+      "time": 93.4507,
+      "strength": 0.215,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 4281.9
+    },
+    {
+      "time": 93.5467,
+      "strength": 0.3134,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4196.4
+    },
+    {
+      "time": 93.6427,
+      "strength": 0.2331,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 4197.0
+    },
+    {
+      "time": 93.7493,
+      "strength": 0.4199,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3979.7
+    },
+    {
+      "time": 93.8453,
+      "strength": 0.3395,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4251.9
+    },
+    {
+      "time": 93.9413,
+      "strength": 0.2388,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4812.6
+    },
+    {
+      "time": 94.048,
+      "strength": 0.2711,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4354.1
+    },
+    {
+      "time": 94.144,
+      "strength": 0.2385,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4833.5
+    },
+    {
+      "time": 94.24,
+      "strength": 0.2325,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4945.8
+    },
+    {
+      "time": 94.3467,
+      "strength": 0.5191,
+      "intensity": 3,
+      "lane": 3,
+      "centroidHz": 4531.5
+    },
+    {
+      "time": 94.4427,
+      "strength": 0.2426,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4495.0
+    },
+    {
+      "time": 94.5493,
+      "strength": 0.2363,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4772.4
+    },
+    {
+      "time": 94.6453,
+      "strength": 0.2898,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4610.3
+    },
+    {
+      "time": 94.7413,
+      "strength": 0.2499,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4450.1
+    },
+    {
+      "time": 94.848,
+      "strength": 0.2776,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4761.3
+    },
+    {
+      "time": 94.9333,
+      "strength": 0.2519,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4156.7
+    },
+    {
+      "time": 95.0507,
+      "strength": 0.2282,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4731.7
+    },
+    {
+      "time": 95.1467,
+      "strength": 0.2733,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5020.9
+    },
+    {
+      "time": 95.2427,
+      "strength": 0.277,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4865.6
+    },
+    {
+      "time": 95.3493,
+      "strength": 0.2442,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 5027.4
+    },
+    {
+      "time": 95.4453,
+      "strength": 0.2279,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 5002.8
+    },
+    {
+      "time": 95.5413,
+      "strength": 0.2236,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 5340.1
+    },
+    {
+      "time": 95.6373,
+      "strength": 0.3078,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4598.3
+    },
+    {
+      "time": 95.744,
+      "strength": 0.2606,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5014.8
+    },
+    {
+      "time": 95.84,
+      "strength": 0.3067,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4842.9
+    },
+    {
+      "time": 95.9467,
+      "strength": 0.2943,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4959.0
+    },
+    {
+      "time": 96.0427,
+      "strength": 0.3046,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4509.7
+    },
+    {
+      "time": 96.1493,
+      "strength": 0.2587,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5118.0
+    },
+    {
+      "time": 96.2453,
+      "strength": 0.2955,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4963.0
+    },
+    {
+      "time": 96.3413,
+      "strength": 0.2832,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5088.0
+    },
+    {
+      "time": 96.448,
+      "strength": 0.2914,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4992.4
+    },
+    {
+      "time": 96.544,
+      "strength": 0.3602,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5054.7
+    },
+    {
+      "time": 96.6507,
+      "strength": 0.2729,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5018.9
+    },
+    {
+      "time": 96.7467,
+      "strength": 0.3051,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4890.5
+    },
+    {
+      "time": 96.8427,
+      "strength": 0.3151,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5283.1
+    },
+    {
+      "time": 96.9493,
+      "strength": 0.2531,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5530.9
+    },
+    {
+      "time": 97.0453,
+      "strength": 0.307,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5131.7
+    },
+    {
+      "time": 97.1413,
+      "strength": 0.2644,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5068.8
+    },
+    {
+      "time": 97.248,
+      "strength": 0.3751,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5090.7
+    },
+    {
+      "time": 97.344,
+      "strength": 0.3206,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5295.1
+    },
+    {
+      "time": 97.4507,
+      "strength": 0.2435,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 5468.8
+    },
+    {
+      "time": 97.5467,
+      "strength": 0.3259,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5571.3
+    },
+    {
+      "time": 97.696,
+      "strength": 0.2876,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5575.5
+    },
+    {
+      "time": 97.8987,
+      "strength": 0.2724,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5543.3
+    },
+    {
+      "time": 97.9947,
+      "strength": 0.2755,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5478.2
+    },
+    {
+      "time": 98.144,
+      "strength": 0.2734,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5243.3
+    },
+    {
+      "time": 98.2933,
+      "strength": 0.2588,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5910.3
+    },
+    {
+      "time": 98.4,
+      "strength": 0.2697,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5659.8
+    },
+    {
+      "time": 98.496,
+      "strength": 0.2814,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5576.9
+    },
+    {
+      "time": 98.6453,
+      "strength": 0.2778,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5994.0
+    },
+    {
+      "time": 98.7947,
+      "strength": 0.3038,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5594.2
+    },
+    {
+      "time": 98.8907,
+      "strength": 0.2832,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5403.6
+    },
+    {
+      "time": 98.9973,
+      "strength": 0.277,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5530.0
+    },
+    {
+      "time": 99.0933,
+      "strength": 0.2957,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5723.0
+    },
+    {
+      "time": 99.2427,
+      "strength": 0.3025,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5045.8
+    },
+    {
+      "time": 99.4453,
+      "strength": 0.3055,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5168.9
+    },
+    {
+      "time": 99.5413,
+      "strength": 0.2742,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5271.2
+    },
+    {
+      "time": 99.744,
+      "strength": 0.2546,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5372.6
+    },
+    {
+      "time": 100.5973,
+      "strength": 0.3332,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5988.7
+    },
+    {
+      "time": 100.6933,
+      "strength": 0.3372,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5527.7
+    },
+    {
+      "time": 103.9467,
+      "strength": 0.2668,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2607.2
+    },
+    {
+      "time": 104.0853,
+      "strength": 0.3146,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3706.1
+    },
+    {
+      "time": 104.2133,
+      "strength": 0.2936,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3461.3
+    },
+    {
+      "time": 104.352,
+      "strength": 0.3238,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2675.9
+    },
+    {
+      "time": 104.6187,
+      "strength": 0.2431,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2848.9
+    },
+    {
+      "time": 104.7573,
+      "strength": 0.0844,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1506.7
+    },
+    {
+      "time": 104.8853,
+      "strength": 0.1995,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2786.2
+    },
+    {
+      "time": 105.0133,
+      "strength": 0.2363,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3929.7
+    },
+    {
+      "time": 105.152,
+      "strength": 0.2994,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2552.0
+    },
+    {
+      "time": 105.248,
+      "strength": 0.1397,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2424.9
+    },
+    {
+      "time": 105.4187,
+      "strength": 0.1516,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 3127.0
+    },
+    {
+      "time": 105.5467,
+      "strength": 0.4513,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4854.0
+    },
+    {
+      "time": 105.6747,
+      "strength": 0.4295,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5008.1
+    },
+    {
+      "time": 105.8133,
+      "strength": 0.4587,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4792.9
+    },
+    {
+      "time": 105.9413,
+      "strength": 0.4056,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4936.6
+    },
+    {
+      "time": 106.08,
+      "strength": 0.2853,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4643.1
+    },
+    {
+      "time": 106.208,
+      "strength": 0.3176,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5601.0
+    },
+    {
+      "time": 106.3467,
+      "strength": 0.278,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 6917.6
+    },
+    {
+      "time": 106.4747,
+      "strength": 0.296,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 8330.3
+    },
+    {
+      "time": 106.6133,
+      "strength": 0.4086,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5130.2
+    },
+    {
+      "time": 106.7413,
+      "strength": 0.5537,
+      "intensity": 3,
+      "lane": 3,
+      "centroidHz": 4532.2
+    },
+    {
+      "time": 106.88,
+      "strength": 0.6473,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4308.0
+    },
+    {
+      "time": 107.008,
+      "strength": 0.4741,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4637.7
+    },
+    {
+      "time": 107.1467,
+      "strength": 0.8808,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4499.0
+    },
+    {
+      "time": 107.2853,
+      "strength": 0.4086,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4423.4
+    },
+    {
+      "time": 107.4133,
+      "strength": 0.6331,
+      "intensity": 3,
+      "lane": 3,
+      "centroidHz": 4393.2
+    },
+    {
+      "time": 107.5413,
+      "strength": 0.5849,
+      "intensity": 3,
+      "lane": 3,
+      "centroidHz": 4702.4
+    },
+    {
+      "time": 107.68,
+      "strength": 0.3443,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2536.5
+    },
+    {
+      "time": 107.808,
+      "strength": 0.5427,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 3188.9
+    },
+    {
+      "time": 107.9467,
+      "strength": 0.7777,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3894.2
+    },
+    {
+      "time": 108.0747,
+      "strength": 0.3332,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2738.7
+    },
+    {
+      "time": 108.2133,
+      "strength": 0.7211,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 3162.8
+    },
+    {
+      "time": 108.3413,
+      "strength": 0.8043,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4021.6
+    },
+    {
+      "time": 108.48,
+      "strength": 0.324,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2492.7
+    },
+    {
+      "time": 108.608,
+      "strength": 0.6092,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 3275.2
+    },
+    {
+      "time": 108.7467,
+      "strength": 0.7833,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3943.0
+    },
+    {
+      "time": 108.8747,
+      "strength": 0.4591,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2759.0
+    },
+    {
+      "time": 109.0133,
+      "strength": 0.727,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 3090.4
+    },
+    {
+      "time": 109.1413,
+      "strength": 0.8361,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3978.8
+    },
+    {
+      "time": 109.28,
+      "strength": 0.3555,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2461.6
+    },
+    {
+      "time": 109.408,
+      "strength": 0.6209,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 3136.8
+    },
+    {
+      "time": 109.5467,
+      "strength": 0.8054,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3973.7
+    },
+    {
+      "time": 109.6747,
+      "strength": 0.3602,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2750.7
+    },
+    {
+      "time": 109.8133,
+      "strength": 0.7105,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 3131.0
+    },
+    {
+      "time": 109.9413,
+      "strength": 0.8105,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4237.8
+    },
+    {
+      "time": 110.08,
+      "strength": 0.4948,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4054.6
+    },
+    {
+      "time": 110.208,
+      "strength": 0.6579,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3498.9
+    },
+    {
+      "time": 110.3467,
+      "strength": 0.7956,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3946.7
+    },
+    {
+      "time": 110.4747,
+      "strength": 0.4916,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2772.2
+    },
+    {
+      "time": 110.6133,
+      "strength": 0.7271,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 3079.7
+    },
+    {
+      "time": 110.7413,
+      "strength": 0.8659,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4010.7
+    },
+    {
+      "time": 110.88,
+      "strength": 0.3593,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2436.6
+    },
+    {
+      "time": 111.008,
+      "strength": 0.6621,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 3155.1
+    },
+    {
+      "time": 111.1467,
+      "strength": 0.8021,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3922.2
+    },
+    {
+      "time": 111.2747,
+      "strength": 0.413,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2706.0
+    },
+    {
+      "time": 111.4133,
+      "strength": 0.7399,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 3183.1
+    },
+    {
+      "time": 111.5413,
+      "strength": 0.8595,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4024.2
+    },
+    {
+      "time": 111.68,
+      "strength": 0.338,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2523.1
+    },
+    {
+      "time": 111.808,
+      "strength": 0.6643,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 3213.8
+    },
+    {
+      "time": 111.9467,
+      "strength": 0.8067,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3948.8
+    },
+    {
+      "time": 112.0747,
+      "strength": 0.5004,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 2753.2
+    },
+    {
+      "time": 112.2133,
+      "strength": 0.7424,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 3096.1
+    },
+    {
+      "time": 112.3413,
+      "strength": 0.8779,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4018.0
+    },
+    {
+      "time": 112.48,
+      "strength": 0.3655,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2419.2
+    },
+    {
+      "time": 112.608,
+      "strength": 0.7033,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3563.5
+    },
+    {
+      "time": 112.7467,
+      "strength": 0.8551,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3937.2
+    },
+    {
+      "time": 112.8747,
+      "strength": 0.3551,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2685.5
+    },
+    {
+      "time": 113.0133,
+      "strength": 0.7875,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3407.9
+    },
+    {
+      "time": 113.1413,
+      "strength": 0.8652,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4309.3
+    },
+    {
+      "time": 113.28,
+      "strength": 0.3839,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 3140.0
+    },
+    {
+      "time": 113.5467,
+      "strength": 0.8207,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4062.2
+    },
+    {
+      "time": 113.6747,
+      "strength": 0.4539,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3406.5
+    },
+    {
+      "time": 113.8133,
+      "strength": 0.7374,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3570.4
+    },
+    {
+      "time": 113.9413,
+      "strength": 0.7775,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3860.8
+    },
+    {
+      "time": 114.08,
+      "strength": 0.4363,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3494.0
+    },
+    {
+      "time": 114.208,
+      "strength": 0.6825,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3668.8
+    },
+    {
+      "time": 114.3467,
+      "strength": 0.8369,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4248.7
+    },
+    {
+      "time": 114.4747,
+      "strength": 0.4671,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3622.1
+    },
+    {
+      "time": 114.6133,
+      "strength": 0.7844,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3679.4
+    },
+    {
+      "time": 114.7413,
+      "strength": 0.879,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4218.3
+    },
+    {
+      "time": 114.88,
+      "strength": 0.3954,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3487.1
+    },
+    {
+      "time": 115.008,
+      "strength": 0.7075,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3774.3
+    },
+    {
+      "time": 115.1467,
+      "strength": 0.8331,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4276.6
+    },
+    {
+      "time": 115.2747,
+      "strength": 0.5528,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3508.4
+    },
+    {
+      "time": 115.4133,
+      "strength": 0.7853,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3604.5
+    },
+    {
+      "time": 115.5413,
+      "strength": 0.8935,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4259.8
+    },
+    {
+      "time": 115.68,
+      "strength": 0.4333,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3452.9
+    },
+    {
+      "time": 115.808,
+      "strength": 0.7022,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3640.3
+    },
+    {
+      "time": 115.9467,
+      "strength": 0.8429,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4257.8
+    },
+    {
+      "time": 116.0747,
+      "strength": 0.47,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3615.4
+    },
+    {
+      "time": 116.2133,
+      "strength": 0.7845,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3659.1
+    },
+    {
+      "time": 116.3413,
+      "strength": 0.8679,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4327.6
+    },
+    {
+      "time": 116.48,
+      "strength": 0.4894,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3857.7
+    },
+    {
+      "time": 116.608,
+      "strength": 0.688,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3719.5
+    },
+    {
+      "time": 116.7467,
+      "strength": 0.829,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4287.4
+    },
+    {
+      "time": 116.8747,
+      "strength": 0.538,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3527.4
+    },
+    {
+      "time": 117.0133,
+      "strength": 0.7805,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3578.1
+    },
+    {
+      "time": 117.1413,
+      "strength": 0.8776,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4246.5
+    },
+    {
+      "time": 117.28,
+      "strength": 0.4306,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3477.7
+    },
+    {
+      "time": 117.408,
+      "strength": 0.6558,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3672.3
+    },
+    {
+      "time": 117.5467,
+      "strength": 0.8307,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4240.8
+    },
+    {
+      "time": 117.6747,
+      "strength": 0.4201,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3615.6
+    },
+    {
+      "time": 117.8133,
+      "strength": 0.7715,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3691.0
+    },
+    {
+      "time": 117.9413,
+      "strength": 0.8001,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4252.5
+    },
+    {
+      "time": 118.08,
+      "strength": 0.3764,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3548.6
+    },
+    {
+      "time": 118.208,
+      "strength": 0.5945,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3863.9
+    },
+    {
+      "time": 118.3467,
+      "strength": 0.3325,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 3015.6
+    },
+    {
+      "time": 118.4853,
+      "strength": 0.3798,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3826.3
+    },
+    {
+      "time": 118.6133,
+      "strength": 0.299,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3976.9
+    },
+    {
+      "time": 118.752,
+      "strength": 0.3686,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3771.6
+    },
+    {
+      "time": 119.0187,
+      "strength": 0.2953,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4790.4
+    },
+    {
+      "time": 119.2853,
+      "strength": 0.3521,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 6984.2
+    },
+    {
+      "time": 119.424,
+      "strength": 0.2076,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2762.9
+    },
+    {
+      "time": 119.552,
+      "strength": 0.5286,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3918.4
+    },
+    {
+      "time": 119.68,
+      "strength": 0.5864,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4013.4
+    },
+    {
+      "time": 119.8187,
+      "strength": 0.5628,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3998.8
+    },
+    {
+      "time": 119.9467,
+      "strength": 0.7151,
+      "intensity": 3,
+      "lane": 3,
+      "centroidHz": 4856.0
+    },
+    {
+      "time": 120.0853,
+      "strength": 0.4488,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4411.0
+    },
+    {
+      "time": 120.2133,
+      "strength": 0.7863,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4456.5
+    },
+    {
+      "time": 120.3413,
+      "strength": 0.6129,
+      "intensity": 3,
+      "lane": 3,
+      "centroidHz": 4790.8
+    },
+    {
+      "time": 120.48,
+      "strength": 0.5688,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3863.1
+    },
+    {
+      "time": 120.608,
+      "strength": 0.6159,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3754.7
+    },
+    {
+      "time": 120.7467,
+      "strength": 0.8021,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4235.6
+    },
+    {
+      "time": 120.8747,
+      "strength": 0.6263,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3756.5
+    },
+    {
+      "time": 121.0133,
+      "strength": 0.9184,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3862.2
+    },
+    {
+      "time": 121.1413,
+      "strength": 0.8218,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4295.9
+    },
+    {
+      "time": 121.28,
+      "strength": 0.3605,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3656.2
+    },
+    {
+      "time": 121.408,
+      "strength": 0.7939,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3996.6
+    },
+    {
+      "time": 121.5467,
+      "strength": 0.8096,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4271.4
+    },
+    {
+      "time": 121.6747,
+      "strength": 0.5303,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3527.1
+    },
+    {
+      "time": 121.8133,
+      "strength": 0.961,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4077.9
+    },
+    {
+      "time": 121.9413,
+      "strength": 0.8581,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4303.6
+    },
+    {
+      "time": 122.08,
+      "strength": 0.5955,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3844.5
+    },
+    {
+      "time": 122.208,
+      "strength": 0.6623,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3705.8
+    },
+    {
+      "time": 122.3467,
+      "strength": 0.8327,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4230.6
+    },
+    {
+      "time": 122.4747,
+      "strength": 0.6734,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3577.3
+    },
+    {
+      "time": 122.6133,
+      "strength": 0.9063,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3948.7
+    },
+    {
+      "time": 122.7413,
+      "strength": 0.8263,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4468.0
+    },
+    {
+      "time": 122.88,
+      "strength": 0.4862,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4641.3
+    },
+    {
+      "time": 123.008,
+      "strength": 0.8077,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4170.7
+    },
+    {
+      "time": 123.1467,
+      "strength": 0.8207,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4277.0
+    },
+    {
+      "time": 123.2747,
+      "strength": 0.6262,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3473.4
+    },
+    {
+      "time": 123.4133,
+      "strength": 0.9521,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4057.2
+    },
+    {
+      "time": 123.5413,
+      "strength": 0.8636,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4325.4
+    },
+    {
+      "time": 123.68,
+      "strength": 0.5915,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3841.4
+    },
+    {
+      "time": 123.808,
+      "strength": 0.6702,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3690.2
+    },
+    {
+      "time": 123.9467,
+      "strength": 0.8144,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4242.4
+    },
+    {
+      "time": 124.0747,
+      "strength": 0.6881,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3785.0
+    },
+    {
+      "time": 124.2133,
+      "strength": 0.9358,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3975.8
+    },
+    {
+      "time": 124.3413,
+      "strength": 0.8648,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4295.8
+    },
+    {
+      "time": 124.48,
+      "strength": 0.3788,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3560.6
+    },
+    {
+      "time": 124.608,
+      "strength": 0.8263,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3942.5
+    },
+    {
+      "time": 124.7467,
+      "strength": 0.8263,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4272.5
+    },
+    {
+      "time": 124.8747,
+      "strength": 0.6506,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3730.4
+    },
+    {
+      "time": 125.0133,
+      "strength": 0.9754,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3971.1
+    },
+    {
+      "time": 125.1413,
+      "strength": 0.861,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4316.6
+    },
+    {
+      "time": 125.28,
+      "strength": 0.6085,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3820.0
+    },
+    {
+      "time": 125.408,
+      "strength": 0.7149,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3953.4
+    },
+    {
+      "time": 125.5467,
+      "strength": 0.8565,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4240.2
+    },
+    {
+      "time": 125.6747,
+      "strength": 0.6672,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3822.8
+    },
+    {
+      "time": 125.8133,
+      "strength": 0.9543,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4173.4
+    },
+    {
+      "time": 125.9413,
+      "strength": 0.8719,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4555.2
+    },
+    {
+      "time": 126.08,
+      "strength": 0.5068,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4272.6
+    },
+    {
+      "time": 126.208,
+      "strength": 0.7002,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3470.0
+    },
+    {
+      "time": 126.3467,
+      "strength": 0.8117,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4073.5
+    },
+    {
+      "time": 126.4853,
+      "strength": 0.4513,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3750.6
+    },
+    {
+      "time": 126.6133,
+      "strength": 0.8605,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3849.8
+    },
+    {
+      "time": 126.7413,
+      "strength": 0.7794,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3944.3
+    },
+    {
+      "time": 126.88,
+      "strength": 0.5933,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3836.2
+    },
+    {
+      "time": 127.008,
+      "strength": 0.6643,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3740.3
+    },
+    {
+      "time": 127.1467,
+      "strength": 0.8207,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4228.7
+    },
+    {
+      "time": 127.2747,
+      "strength": 0.7502,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3882.2
+    },
+    {
+      "time": 127.4133,
+      "strength": 0.9232,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3905.4
+    },
+    {
+      "time": 127.5413,
+      "strength": 0.8535,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4309.9
+    },
+    {
+      "time": 127.68,
+      "strength": 0.3686,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3678.1
+    },
+    {
+      "time": 127.808,
+      "strength": 0.8243,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3946.9
+    },
+    {
+      "time": 127.9467,
+      "strength": 0.8225,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4272.3
+    },
+    {
+      "time": 128.0747,
+      "strength": 0.5986,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3546.0
+    },
+    {
+      "time": 128.2133,
+      "strength": 0.9868,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4185.7
+    },
+    {
+      "time": 128.3413,
+      "strength": 0.8628,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4265.6
+    },
+    {
+      "time": 128.48,
+      "strength": 0.5784,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3822.2
+    },
+    {
+      "time": 128.608,
+      "strength": 0.6643,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3744.0
+    },
+    {
+      "time": 128.7467,
+      "strength": 0.8225,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4231.0
+    },
+    {
+      "time": 128.8747,
+      "strength": 0.6664,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3758.5
+    },
+    {
+      "time": 129.0133,
+      "strength": 0.9305,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3945.1
+    },
+    {
+      "time": 129.1413,
+      "strength": 0.8318,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4356.4
+    },
+    {
+      "time": 129.28,
+      "strength": 0.4353,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4007.6
+    },
+    {
+      "time": 129.408,
+      "strength": 0.8301,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3917.8
+    },
+    {
+      "time": 129.5467,
+      "strength": 0.825,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4171.2
+    },
+    {
+      "time": 129.6747,
+      "strength": 0.5967,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3603.3
+    },
+    {
+      "time": 129.8133,
+      "strength": 0.9789,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3935.5
+    },
+    {
+      "time": 129.9413,
+      "strength": 0.8306,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4283.0
+    },
+    {
+      "time": 130.08,
+      "strength": 0.5791,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3838.7
+    },
+    {
+      "time": 130.208,
+      "strength": 0.6617,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3730.7
+    },
+    {
+      "time": 130.3467,
+      "strength": 0.8051,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4225.9
+    },
+    {
+      "time": 130.4747,
+      "strength": 0.6519,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3846.2
+    },
+    {
+      "time": 130.6133,
+      "strength": 0.9399,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3973.0
+    },
+    {
+      "time": 130.7413,
+      "strength": 0.818,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 4257.8
+    },
+    {
+      "time": 130.88,
+      "strength": 0.3725,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3600.9
+    },
+    {
+      "time": 131.008,
+      "strength": 0.821,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3979.8
+    },
+    {
+      "time": 131.1467,
+      "strength": 0.3252,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2862.9
+    },
+    {
+      "time": 131.3493,
+      "strength": 0.5777,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 3553.5
+    },
+    {
+      "time": 131.4453,
+      "strength": 0.3121,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2463.7
+    },
+    {
+      "time": 131.552,
+      "strength": 0.3927,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2477.9
+    },
+    {
+      "time": 131.7653,
+      "strength": 0.2005,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2754.2
+    },
+    {
+      "time": 131.8507,
+      "strength": 0.1979,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1801.6
+    },
+    {
+      "time": 132.0533,
+      "strength": 0.1966,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2016.1
+    },
+    {
+      "time": 132.1493,
+      "strength": 0.4345,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2882.6
+    },
+    {
+      "time": 132.2453,
+      "strength": 0.292,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2742.4
+    },
+    {
+      "time": 132.352,
+      "strength": 0.3879,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2391.3
+    },
+    {
+      "time": 132.448,
+      "strength": 0.1927,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2293.4
+    },
+    {
+      "time": 132.5547,
+      "strength": 0.2165,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2895.7
+    }
+  ]
+}
