@@ -1,0 +1,20 @@
+name: Deploy Game 😎
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+    
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  
+jobs:
+  call-shared-workflow:
+    uses: 0jeffrey017/MyUnityWGL_Workflows/.github/workflows/unity-webgl-template.yml@main
+    secrets:
+      UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+      UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+      UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
