@@ -1,4 +1,3 @@
-using System;
 using RhythmGame;
 using UnityEngine;
 
@@ -9,9 +8,10 @@ public class NoteSpawner : MonoBehaviour
     [SerializeField] private Transform[] noteEndLaneTransform;
     [SerializeField] private Transform[] noteDestroyLaneTransform;
     [SerializeField] private NotePool notePool;
+    [SerializeField] private JudgementManager judgementManager;
 
     private void Start()
-    {   
+    {
         chartPlayer.OnNoteSpawn += ChartPlayerOnOnNoteSpawn;
     }
 
@@ -22,5 +22,8 @@ public class NoteSpawner : MonoBehaviour
             noteEndLaneTransform[note.lane].position,
             noteDestroyLaneTransform[note.lane].position,
             1.5f);
+
+        // Register this note so it can be judged when the player hits its lane.
+        judgementManager.Register(note, noteObj);
     }
 }

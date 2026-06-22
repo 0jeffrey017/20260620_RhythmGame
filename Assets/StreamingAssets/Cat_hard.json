@@ -6,7 +6,7 @@
   "offset": 1.5467,
   "lanes": 4,
   "levels": 4,
-  "noteCount": 835,
+  "noteCount": 992,
   "notes": [
     {
       "time": 1.5467,
@@ -37,6 +37,13 @@
       "centroidHz": 2428.8
     },
     {
+      "time": 2.0587,
+      "strength": 0.1578,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2382.0
+    },
+    {
       "time": 2.144,
       "strength": 0.2129,
       "intensity": 1,
@@ -49,6 +56,13 @@
       "intensity": 1,
       "lane": 0,
       "centroidHz": 2141.8
+    },
+    {
+      "time": 2.3573,
+      "strength": 0.1052,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2008.5
     },
     {
       "time": 2.4533,
@@ -114,6 +128,55 @@
       "centroidHz": 1949.8
     },
     {
+      "time": 3.648,
+      "strength": 0.1112,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1775.3
+    },
+    {
+      "time": 3.7547,
+      "strength": 0.1031,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1853.5
+    },
+    {
+      "time": 3.8507,
+      "strength": 0.1004,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1755.5
+    },
+    {
+      "time": 3.9573,
+      "strength": 0.0786,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2006.1
+    },
+    {
+      "time": 4.0533,
+      "strength": 0.0882,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1846.7
+    },
+    {
+      "time": 4.1493,
+      "strength": 0.0795,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1725.0
+    },
+    {
+      "time": 4.256,
+      "strength": 0.0976,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1911.1
+    },
+    {
       "time": 4.352,
       "strength": 0.1533,
       "intensity": 1,
@@ -156,6 +219,13 @@
       "centroidHz": 2420.9
     },
     {
+      "time": 5.248,
+      "strength": 0.1495,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2149.1
+    },
+    {
       "time": 5.344,
       "strength": 0.2026,
       "intensity": 1,
@@ -168,6 +238,13 @@
       "intensity": 1,
       "lane": 0,
       "centroidHz": 1925.4
+    },
+    {
+      "time": 5.5467,
+      "strength": 0.1177,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1681.1
     },
     {
       "time": 5.6533,
@@ -254,6 +331,20 @@
       "centroidHz": 2424.8
     },
     {
+      "time": 7.552,
+      "strength": 0.0865,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1559.1
+    },
+    {
+      "time": 7.648,
+      "strength": 0.0799,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1536.7
+    },
+    {
       "time": 7.9467,
       "strength": 0.5502,
       "intensity": 3,
@@ -294,6 +385,13 @@
       "intensity": 1,
       "lane": 0,
       "centroidHz": 1869.7
+    },
+    {
+      "time": 8.7467,
+      "strength": 0.0996,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1892.7
     },
     {
       "time": 8.8533,
@@ -359,6 +457,27 @@
       "centroidHz": 2073.3
     },
     {
+      "time": 10.048,
+      "strength": 0.1115,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1800.7
+    },
+    {
+      "time": 10.1547,
+      "strength": 0.0974,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1761.5
+    },
+    {
+      "time": 10.2507,
+      "strength": 0.101,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1732.0
+    },
+    {
       "time": 10.3467,
       "strength": 0.1149,
       "intensity": 1,
@@ -387,11 +506,25 @@
       "centroidHz": 2489.3
     },
     {
+      "time": 10.848,
+      "strength": 0.0866,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1674.1
+    },
+    {
       "time": 10.9547,
       "strength": 0.1376,
       "intensity": 1,
       "lane": 1,
       "centroidHz": 2828.5
+    },
+    {
+      "time": 11.0507,
+      "strength": 0.1354,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2772.7
     },
     {
       "time": 11.1467,
@@ -422,6 +555,13 @@
       "centroidHz": 2445.2
     },
     {
+      "time": 11.6587,
+      "strength": 0.1516,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2265.1
+    },
+    {
       "time": 11.744,
       "strength": 0.1955,
       "intensity": 1,
@@ -434,6 +574,13 @@
       "intensity": 1,
       "lane": 0,
       "centroidHz": 1809.2
+    },
+    {
+      "time": 11.9467,
+      "strength": 0.1011,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1830.0
     },
     {
       "time": 12.0533,
@@ -476,6 +623,48 @@
       "intensity": 1,
       "lane": 1,
       "centroidHz": 2801.2
+    },
+    {
+      "time": 12.7467,
+      "strength": 0.1076,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1610.6
+    },
+    {
+      "time": 12.9493,
+      "strength": 0.1019,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1964.3
+    },
+    {
+      "time": 13.056,
+      "strength": 0.0768,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1752.5
+    },
+    {
+      "time": 13.152,
+      "strength": 0.1064,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1781.2
+    },
+    {
+      "time": 13.4507,
+      "strength": 0.0754,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1589.8
+    },
+    {
+      "time": 13.8453,
+      "strength": 0.0849,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2072.1
     },
     {
       "time": 14.3467,
@@ -574,6 +763,13 @@
       "intensity": 1,
       "lane": 1,
       "centroidHz": 3289.9
+    },
+    {
+      "time": 15.8507,
+      "strength": 0.1451,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 3181.9
     },
     {
       "time": 15.9467,
@@ -693,6 +889,13 @@
       "intensity": 3,
       "lane": 2,
       "centroidHz": 4109.2
+    },
+    {
+      "time": 17.6427,
+      "strength": 0.1819,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3420.9
     },
     {
       "time": 17.7493,
@@ -1143,6 +1346,13 @@
       "centroidHz": 4616.3
     },
     {
+      "time": 24.096,
+      "strength": 0.2757,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4727.8
+    },
+    {
       "time": 24.1493,
       "strength": 0.3076,
       "intensity": 2,
@@ -1150,11 +1360,25 @@
       "centroidHz": 4729.3
     },
     {
+      "time": 24.2453,
+      "strength": 0.3063,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4552.9
+    },
+    {
       "time": 24.2987,
       "strength": 0.3088,
       "intensity": 2,
       "lane": 3,
       "centroidHz": 4715.7
+    },
+    {
+      "time": 24.3947,
+      "strength": 0.3009,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4823.7
     },
     {
       "time": 24.448,
@@ -1171,11 +1395,25 @@
       "centroidHz": 4902.0
     },
     {
+      "time": 24.5973,
+      "strength": 0.2862,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4838.1
+    },
+    {
       "time": 24.6933,
       "strength": 0.3133,
       "intensity": 2,
       "lane": 3,
       "centroidHz": 4769.7
+    },
+    {
+      "time": 24.7467,
+      "strength": 0.2727,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4994.7
     },
     {
       "time": 24.8427,
@@ -1190,6 +1428,13 @@
       "intensity": 2,
       "lane": 3,
       "centroidHz": 4960.8
+    },
+    {
+      "time": 24.992,
+      "strength": 0.2892,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4933.1
     },
     {
       "time": 25.0453,
@@ -1227,11 +1472,32 @@
       "centroidHz": 4866.4
     },
     {
+      "time": 25.4933,
+      "strength": 0.2844,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5267.6
+    },
+    {
+      "time": 25.6427,
+      "strength": 0.279,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4885.1
+    },
+    {
       "time": 25.696,
       "strength": 0.299,
       "intensity": 2,
       "lane": 3,
       "centroidHz": 4900.7
+    },
+    {
+      "time": 25.792,
+      "strength": 0.2713,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4821.1
     },
     {
       "time": 25.8453,
@@ -1241,6 +1507,13 @@
       "centroidHz": 4912.9
     },
     {
+      "time": 25.8987,
+      "strength": 0.288,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4890.1
+    },
+    {
       "time": 25.9947,
       "strength": 0.3462,
       "intensity": 2,
@@ -1248,11 +1521,46 @@
       "centroidHz": 4858.1
     },
     {
+      "time": 26.048,
+      "strength": 0.3375,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4904.8
+    },
+    {
+      "time": 26.144,
+      "strength": 0.2831,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5194.0
+    },
+    {
+      "time": 26.1973,
+      "strength": 0.2929,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4993.4
+    },
+    {
       "time": 26.2507,
       "strength": 0.2945,
       "intensity": 2,
       "lane": 3,
       "centroidHz": 5094.0
+    },
+    {
+      "time": 26.368,
+      "strength": 0.2668,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 4738.1
+    },
+    {
+      "time": 26.496,
+      "strength": 0.2817,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5221.3
     },
     {
       "time": 26.5493,
@@ -1269,11 +1577,32 @@
       "centroidHz": 5928.1
     },
     {
+      "time": 26.6987,
+      "strength": 0.2621,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5992.8
+    },
+    {
+      "time": 26.752,
+      "strength": 0.2555,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 6155.7
+    },
+    {
       "time": 26.848,
       "strength": 0.3055,
       "intensity": 2,
       "lane": 3,
       "centroidHz": 5963.6
+    },
+    {
+      "time": 26.9013,
+      "strength": 0.2911,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5730.2
     },
     {
       "time": 26.9973,
@@ -1283,6 +1612,13 @@
       "centroidHz": 5356.7
     },
     {
+      "time": 27.0507,
+      "strength": 0.3276,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5029.1
+    },
+    {
       "time": 27.104,
       "strength": 0.3246,
       "intensity": 2,
@@ -1290,11 +1626,32 @@
       "centroidHz": 5009.9
     },
     {
+      "time": 27.2107,
+      "strength": 0.1631,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2042.3
+    },
+    {
+      "time": 27.52,
+      "strength": 0.117,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2377.7
+    },
+    {
       "time": 30.3467,
       "strength": 0.2693,
       "intensity": 2,
       "lane": 1,
       "centroidHz": 2619.3
+    },
+    {
+      "time": 30.432,
+      "strength": 0.0753,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1842.4
     },
     {
       "time": 30.5493,
@@ -1535,6 +1892,13 @@
       "centroidHz": 3682.3
     },
     {
+      "time": 34.4533,
+      "strength": 0.1981,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1938.7
+    },
+    {
       "time": 34.5493,
       "strength": 0.6315,
       "intensity": 3,
@@ -1554,6 +1918,13 @@
       "intensity": 4,
       "lane": 2,
       "centroidHz": 3685.7
+    },
+    {
+      "time": 34.848,
+      "strength": 0.2,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2015.9
     },
     {
       "time": 34.944,
@@ -1617,6 +1988,13 @@
       "intensity": 4,
       "lane": 2,
       "centroidHz": 3766.1
+    },
+    {
+      "time": 36.0533,
+      "strength": 0.2009,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1884.3
     },
     {
       "time": 36.1493,
@@ -1710,6 +2088,13 @@
       "centroidHz": 3693.8
     },
     {
+      "time": 37.6533,
+      "strength": 0.1927,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1614.7
+    },
+    {
       "time": 37.7493,
       "strength": 0.6309,
       "intensity": 3,
@@ -1729,6 +2114,13 @@
       "intensity": 4,
       "lane": 2,
       "centroidHz": 3671.1
+    },
+    {
+      "time": 38.048,
+      "strength": 0.2037,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1845.7
     },
     {
       "time": 38.144,
@@ -1815,6 +2207,13 @@
       "centroidHz": 3996.9
     },
     {
+      "time": 39.648,
+      "strength": 0.126,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2602.6
+    },
+    {
       "time": 39.744,
       "strength": 0.1216,
       "intensity": 1,
@@ -1834,6 +2233,13 @@
       "intensity": 4,
       "lane": 2,
       "centroidHz": 4043.0
+    },
+    {
+      "time": 40.0427,
+      "strength": 0.2201,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3321.5
     },
     {
       "time": 40.1493,
@@ -2298,6 +2704,13 @@
       "centroidHz": 4542.9
     },
     {
+      "time": 46.848,
+      "strength": 0.2606,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4044.7
+    },
+    {
       "time": 46.944,
       "strength": 0.8974,
       "intensity": 4,
@@ -2396,6 +2809,13 @@
       "centroidHz": 4104.4
     },
     {
+      "time": 48.448,
+      "strength": 0.2697,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4217.4
+    },
+    {
       "time": 48.544,
       "strength": 0.9453,
       "intensity": 4,
@@ -2445,6 +2865,13 @@
       "centroidHz": 4346.5
     },
     {
+      "time": 49.248,
+      "strength": 0.2312,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4478.1
+    },
+    {
       "time": 49.344,
       "strength": 0.9666,
       "intensity": 4,
@@ -2492,6 +2919,13 @@
       "intensity": 4,
       "lane": 2,
       "centroidHz": 4046.9
+    },
+    {
+      "time": 50.048,
+      "strength": 0.2683,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4173.0
     },
     {
       "time": 50.144,
@@ -2648,6 +3082,13 @@
       "centroidHz": 4319.2
     },
     {
+      "time": 52.448,
+      "strength": 0.2135,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4579.5
+    },
+    {
       "time": 52.544,
       "strength": 0.8621,
       "intensity": 4,
@@ -2669,6 +3110,13 @@
       "centroidHz": 4056.7
     },
     {
+      "time": 52.8427,
+      "strength": 0.2334,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3505.5
+    },
+    {
       "time": 52.9493,
       "strength": 0.8964,
       "intensity": 4,
@@ -2688,6 +3136,13 @@
       "intensity": 3,
       "lane": 2,
       "centroidHz": 3879.3
+    },
+    {
+      "time": 53.248,
+      "strength": 0.2638,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4102.8
     },
     {
       "time": 53.344,
@@ -2788,6 +3243,13 @@
       "centroidHz": 4116.7
     },
     {
+      "time": 54.848,
+      "strength": 0.2689,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4228.5
+    },
+    {
       "time": 54.944,
       "strength": 0.8955,
       "intensity": 4,
@@ -2835,6 +3297,13 @@
       "intensity": 3,
       "lane": 2,
       "centroidHz": 4128.6
+    },
+    {
+      "time": 55.648,
+      "strength": 0.211,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4678.2
     },
     {
       "time": 55.744,
@@ -2963,6 +3432,13 @@
       "centroidHz": 4197.2
     },
     {
+      "time": 57.6427,
+      "strength": 0.2374,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 5029.8
+    },
+    {
       "time": 57.7493,
       "strength": 0.9985,
       "intensity": 4,
@@ -3054,6 +3530,13 @@
       "centroidHz": 2348.9
     },
     {
+      "time": 59.4453,
+      "strength": 0.1173,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2283.9
+    },
+    {
       "time": 59.744,
       "strength": 0.1831,
       "intensity": 1,
@@ -3068,11 +3551,39 @@
       "centroidHz": 1840.1
     },
     {
+      "time": 60.544,
+      "strength": 0.0876,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2013.4
+    },
+    {
+      "time": 60.9493,
+      "strength": 0.0653,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1917.1
+    },
+    {
+      "time": 61.344,
+      "strength": 0.0526,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2032.6
+    },
+    {
       "time": 62.3467,
       "strength": 0.1742,
       "intensity": 1,
       "lane": 0,
       "centroidHz": 1130.5
+    },
+    {
+      "time": 62.4107,
+      "strength": 0.1164,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 997.3
     },
     {
       "time": 62.752,
@@ -3110,6 +3621,27 @@
       "centroidHz": 1380.3
     },
     {
+      "time": 63.6907,
+      "strength": 0.1154,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1301.7
+    },
+    {
+      "time": 63.7547,
+      "strength": 0.1005,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1361.6
+    },
+    {
+      "time": 63.9573,
+      "strength": 0.0898,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1497.3
+    },
+    {
       "time": 64.1493,
       "strength": 0.1283,
       "intensity": 1,
@@ -3129,6 +3661,13 @@
       "intensity": 2,
       "lane": 0,
       "centroidHz": 1555.8
+    },
+    {
+      "time": 65.0027,
+      "strength": 0.3125,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1541.8
     },
     {
       "time": 65.056,
@@ -3166,6 +3705,13 @@
       "centroidHz": 1397.1
     },
     {
+      "time": 65.7493,
+      "strength": 0.1018,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1426.7
+    },
+    {
       "time": 65.952,
       "strength": 0.1825,
       "intensity": 1,
@@ -3173,11 +3719,32 @@
       "centroidHz": 1511.8
     },
     {
+      "time": 66.0587,
+      "strength": 0.1223,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1488.9
+    },
+    {
       "time": 66.1547,
       "strength": 0.3363,
       "intensity": 2,
       "lane": 0,
       "centroidHz": 1774.5
+    },
+    {
+      "time": 66.2933,
+      "strength": 0.1552,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1761.4
+    },
+    {
+      "time": 66.3573,
+      "strength": 0.144,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1710.8
     },
     {
       "time": 66.5493,
@@ -3201,6 +3768,13 @@
       "centroidHz": 1553.8
     },
     {
+      "time": 66.9547,
+      "strength": 0.1208,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1670.8
+    },
+    {
       "time": 67.1573,
       "strength": 0.146,
       "intensity": 1,
@@ -3208,11 +3782,60 @@
       "centroidHz": 1766.3
     },
     {
+      "time": 67.2533,
+      "strength": 0.1251,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1602.6
+    },
+    {
+      "time": 67.3493,
+      "strength": 0.105,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1789.7
+    },
+    {
+      "time": 67.552,
+      "strength": 0.1096,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1666.1
+    },
+    {
+      "time": 67.648,
+      "strength": 0.112,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1574.5
+    },
+    {
+      "time": 67.8507,
+      "strength": 0.1001,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1598.9
+    },
+    {
+      "time": 67.9467,
+      "strength": 0.0877,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1514.7
+    },
+    {
       "time": 68.1493,
       "strength": 0.3801,
       "intensity": 2,
       "lane": 0,
       "centroidHz": 1688.2
+    },
+    {
+      "time": 68.2027,
+      "strength": 0.3399,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1717.7
     },
     {
       "time": 68.256,
@@ -3236,11 +3859,25 @@
       "centroidHz": 1677.5
     },
     {
+      "time": 68.6933,
+      "strength": 0.1668,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1612.0
+    },
+    {
       "time": 68.7573,
       "strength": 0.2526,
       "intensity": 2,
       "lane": 0,
       "centroidHz": 1605.7
+    },
+    {
+      "time": 68.9493,
+      "strength": 0.1345,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1599.1
     },
     {
       "time": 69.152,
@@ -3264,6 +3901,20 @@
       "centroidHz": 1669.0
     },
     {
+      "time": 69.5573,
+      "strength": 0.1498,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1786.8
+    },
+    {
+      "time": 69.6533,
+      "strength": 0.1372,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1562.4
+    },
+    {
       "time": 69.7493,
       "strength": 0.2269,
       "intensity": 1,
@@ -3276,6 +3927,13 @@
       "intensity": 2,
       "lane": 0,
       "centroidHz": 1696.4
+    },
+    {
+      "time": 70.048,
+      "strength": 0.1539,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1526.7
     },
     {
       "time": 70.1547,
@@ -3299,11 +3957,53 @@
       "centroidHz": 1523.7
     },
     {
+      "time": 70.752,
+      "strength": 0.0928,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1715.3
+    },
+    {
+      "time": 71.0507,
+      "strength": 0.1099,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1350.2
+    },
+    {
+      "time": 71.1573,
+      "strength": 0.0921,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1716.7
+    },
+    {
+      "time": 71.2533,
+      "strength": 0.1134,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1498.2
+    },
+    {
       "time": 71.3493,
       "strength": 0.3982,
       "intensity": 2,
       "lane": 0,
       "centroidHz": 1686.0
+    },
+    {
+      "time": 71.4027,
+      "strength": 0.3489,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1750.4
+    },
+    {
+      "time": 71.4987,
+      "strength": 0.3286,
+      "intensity": 2,
+      "lane": 0,
+      "centroidHz": 1742.1
     },
     {
       "time": 71.552,
@@ -3334,6 +4034,20 @@
       "centroidHz": 1630.2
     },
     {
+      "time": 72.0533,
+      "strength": 0.135,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1577.0
+    },
+    {
+      "time": 72.1493,
+      "strength": 0.1429,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1654.4
+    },
+    {
       "time": 72.352,
       "strength": 0.2703,
       "intensity": 2,
@@ -3348,6 +4062,13 @@
       "centroidHz": 2190.5
     },
     {
+      "time": 72.7573,
+      "strength": 0.1658,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1984.4
+    },
+    {
       "time": 72.9493,
       "strength": 0.2628,
       "intensity": 2,
@@ -3360,6 +4081,48 @@
       "intensity": 2,
       "lane": 0,
       "centroidHz": 1776.3
+    },
+    {
+      "time": 73.248,
+      "strength": 0.1846,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1642.1
+    },
+    {
+      "time": 73.3547,
+      "strength": 0.1606,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2006.4
+    },
+    {
+      "time": 73.4507,
+      "strength": 0.1559,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1884.0
+    },
+    {
+      "time": 73.5573,
+      "strength": 0.1344,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2259.2
+    },
+    {
+      "time": 73.6533,
+      "strength": 0.1337,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1628.9
+    },
+    {
+      "time": 73.984,
+      "strength": 0.0995,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1483.8
     },
     {
       "time": 75.1467,
@@ -3390,6 +4153,20 @@
       "centroidHz": 2552.9
     },
     {
+      "time": 76.128,
+      "strength": 0.0837,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1984.7
+    },
+    {
+      "time": 76.224,
+      "strength": 0.0897,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2066.6
+    },
+    {
       "time": 76.3627,
       "strength": 0.1873,
       "intensity": 1,
@@ -3402,6 +4179,13 @@
       "intensity": 1,
       "lane": 0,
       "centroidHz": 1853.7
+    },
+    {
+      "time": 76.736,
+      "strength": 0.0779,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1297.8
     },
     {
       "time": 76.96,
@@ -3432,6 +4216,13 @@
       "centroidHz": 2524.1
     },
     {
+      "time": 77.7493,
+      "strength": 0.1109,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2962.7
+    },
+    {
       "time": 77.9627,
       "strength": 0.1621,
       "intensity": 1,
@@ -3444,6 +4235,55 @@
       "intensity": 2,
       "lane": 3,
       "centroidHz": 4464.2
+    },
+    {
+      "time": 78.5493,
+      "strength": 0.1212,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2482.5
+    },
+    {
+      "time": 78.752,
+      "strength": 0.071,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2657.9
+    },
+    {
+      "time": 79.0507,
+      "strength": 0.0708,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2257.9
+    },
+    {
+      "time": 79.2533,
+      "strength": 0.0614,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2523.0
+    },
+    {
+      "time": 79.456,
+      "strength": 0.0667,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2518.8
+    },
+    {
+      "time": 79.552,
+      "strength": 0.0642,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2422.0
+    },
+    {
+      "time": 79.7547,
+      "strength": 0.0796,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2553.6
     },
     {
       "time": 79.8507,
@@ -3481,6 +4321,13 @@
       "centroidHz": 3932.8
     },
     {
+      "time": 80.6507,
+      "strength": 0.0788,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3575.7
+    },
+    {
       "time": 81.1413,
       "strength": 0.1671,
       "intensity": 1,
@@ -3516,6 +4363,20 @@
       "centroidHz": 2614.1
     },
     {
+      "time": 82.528,
+      "strength": 0.0816,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2137.0
+    },
+    {
+      "time": 82.624,
+      "strength": 0.0895,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2189.0
+    },
+    {
       "time": 82.7627,
       "strength": 0.182,
       "intensity": 1,
@@ -3528,6 +4389,13 @@
       "intensity": 1,
       "lane": 0,
       "centroidHz": 1913.5
+    },
+    {
+      "time": 83.1467,
+      "strength": 0.0746,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1416.0
     },
     {
       "time": 83.36,
@@ -3558,6 +4426,13 @@
       "centroidHz": 2505.2
     },
     {
+      "time": 84.1493,
+      "strength": 0.1101,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2967.7
+    },
+    {
       "time": 84.3627,
       "strength": 0.1661,
       "intensity": 1,
@@ -3579,6 +4454,20 @@
       "centroidHz": 2494.8
     },
     {
+      "time": 85.152,
+      "strength": 0.0705,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2694.8
+    },
+    {
+      "time": 85.4507,
+      "strength": 0.0751,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2328.8
+    },
+    {
       "time": 85.5467,
       "strength": 0.0984,
       "intensity": 1,
@@ -3591,6 +4480,20 @@
       "intensity": 1,
       "lane": 1,
       "centroidHz": 2691.7
+    },
+    {
+      "time": 85.8453,
+      "strength": 0.0871,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2849.6
+    },
+    {
+      "time": 85.952,
+      "strength": 0.0734,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3337.7
     },
     {
       "time": 86.1547,
@@ -3628,6 +4531,13 @@
       "centroidHz": 3000.0
     },
     {
+      "time": 88.3413,
+      "strength": 0.1399,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 3316.6
+    },
+    {
       "time": 88.448,
       "strength": 0.1629,
       "intensity": 1,
@@ -3656,6 +4566,13 @@
       "centroidHz": 2747.6
     },
     {
+      "time": 88.8427,
+      "strength": 0.1514,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2861.2
+    },
+    {
       "time": 88.9493,
       "strength": 0.4426,
       "intensity": 2,
@@ -3670,6 +4587,13 @@
       "centroidHz": 3027.0
     },
     {
+      "time": 89.1413,
+      "strength": 0.1481,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3524.4
+    },
+    {
       "time": 89.248,
       "strength": 0.1818,
       "intensity": 1,
@@ -3682,6 +4606,13 @@
       "intensity": 1,
       "lane": 2,
       "centroidHz": 3382.0
+    },
+    {
+      "time": 89.4507,
+      "strength": 0.1401,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 3388.6
     },
     {
       "time": 89.5467,
@@ -4031,7 +4962,7 @@
       "strength": 0.2363,
       "intensity": 1,
       "lane": 3,
-      "centroidHz": 4772.4
+      "centroidHz": 4772.3
     },
     {
       "time": 94.6453,
@@ -4244,11 +5175,32 @@
       "centroidHz": 5571.3
     },
     {
+      "time": 97.6427,
+      "strength": 0.2767,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5355.7
+    },
+    {
       "time": 97.696,
       "strength": 0.2876,
       "intensity": 2,
       "lane": 3,
       "centroidHz": 5575.5
+    },
+    {
+      "time": 97.792,
+      "strength": 0.2423,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 5579.5
+    },
+    {
+      "time": 97.8453,
+      "strength": 0.256,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5261.4
     },
     {
       "time": 97.8987,
@@ -4265,6 +5217,13 @@
       "centroidHz": 5478.2
     },
     {
+      "time": 98.048,
+      "strength": 0.242,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 5404.3
+    },
+    {
       "time": 98.144,
       "strength": 0.2734,
       "intensity": 2,
@@ -4272,11 +5231,25 @@
       "centroidHz": 5243.3
     },
     {
+      "time": 98.1973,
+      "strength": 0.2628,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5439.7
+    },
+    {
       "time": 98.2933,
       "strength": 0.2588,
       "intensity": 2,
       "lane": 3,
       "centroidHz": 5910.3
+    },
+    {
+      "time": 98.3467,
+      "strength": 0.2477,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 5537.6
     },
     {
       "time": 98.4,
@@ -4293,11 +5266,25 @@
       "centroidHz": 5576.9
     },
     {
+      "time": 98.592,
+      "strength": 0.2377,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 5531.8
+    },
+    {
       "time": 98.6453,
       "strength": 0.2778,
       "intensity": 2,
       "lane": 3,
       "centroidHz": 5994.0
+    },
+    {
+      "time": 98.7413,
+      "strength": 0.285,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5451.6
     },
     {
       "time": 98.7947,
@@ -4314,6 +5301,13 @@
       "centroidHz": 5403.6
     },
     {
+      "time": 98.944,
+      "strength": 0.2757,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5735.1
+    },
+    {
       "time": 98.9973,
       "strength": 0.277,
       "intensity": 2,
@@ -4328,11 +5322,25 @@
       "centroidHz": 5723.0
     },
     {
+      "time": 99.1467,
+      "strength": 0.2674,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5386.8
+    },
+    {
       "time": 99.2427,
       "strength": 0.3025,
       "intensity": 2,
       "lane": 3,
       "centroidHz": 5045.8
+    },
+    {
+      "time": 99.3387,
+      "strength": 0.2309,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 5121.8
     },
     {
       "time": 99.4453,
@@ -4349,11 +5357,74 @@
       "centroidHz": 5271.2
     },
     {
+      "time": 99.5947,
+      "strength": 0.2213,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 5666.7
+    },
+    {
+      "time": 99.6907,
+      "strength": 0.2292,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 5530.5
+    },
+    {
       "time": 99.744,
       "strength": 0.2546,
       "intensity": 2,
       "lane": 3,
       "centroidHz": 5372.6
+    },
+    {
+      "time": 99.84,
+      "strength": 0.2183,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 5587.6
+    },
+    {
+      "time": 99.9147,
+      "strength": 0.2355,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 5789.9
+    },
+    {
+      "time": 100.0427,
+      "strength": 0.2114,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 5878.0
+    },
+    {
+      "time": 100.096,
+      "strength": 0.2327,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 6085.6
+    },
+    {
+      "time": 100.192,
+      "strength": 0.2053,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 6355.2
+    },
+    {
+      "time": 100.2453,
+      "strength": 0.2115,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 6402.6
+    },
+    {
+      "time": 100.5013,
+      "strength": 0.2453,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 6312.6
     },
     {
       "time": 100.5973,
@@ -4396,6 +5467,13 @@
       "intensity": 2,
       "lane": 1,
       "centroidHz": 2675.9
+    },
+    {
+      "time": 104.448,
+      "strength": 0.1159,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2372.5
     },
     {
       "time": 104.6187,
@@ -5140,11 +6218,25 @@
       "centroidHz": 3771.6
     },
     {
+      "time": 118.8907,
+      "strength": 0.1872,
+      "intensity": 1,
+      "lane": 2,
+      "centroidHz": 4376.6
+    },
+    {
       "time": 119.0187,
       "strength": 0.2953,
       "intensity": 2,
       "lane": 3,
       "centroidHz": 4790.4
+    },
+    {
+      "time": 119.1573,
+      "strength": 0.2112,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 5861.4
     },
     {
       "time": 119.2853,
@@ -5796,6 +6888,13 @@
       "intensity": 2,
       "lane": 1,
       "centroidHz": 2477.9
+    },
+    {
+      "time": 131.6907,
+      "strength": 0.1456,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2209.1
     },
     {
       "time": 131.7653,

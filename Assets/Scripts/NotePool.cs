@@ -42,6 +42,7 @@ public class NotePool : MonoBehaviour
     // Called when an item is taken from the pool using Get
     void OnTakeFromPool(NodeObject system)
     {
+        system.MarkTaken();
         system.gameObject.SetActive(true);
     }
 

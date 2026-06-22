@@ -22,15 +22,18 @@ namespace RhythmGame
         [Tooltip("Seconds a note is announced before its hit time (spawn lead).")]
         [SerializeField] private float leadTime = 1.5f;
 
-        [Tooltip("Start playback automatically on Start().")]
-        [SerializeField] private bool playOnStart = true;
-
         /// <summary>Raised when a note crosses (songTime + leadTime). Subscribe
         /// to spawn falling note objects.</summary>
         public event Action<Note> OnNoteSpawn;
 
         /// <summary>Raised when a note reaches its exact hit time.</summary>
         public event Action<Note> OnNoteHit;
+        
+        public event Action OnPlay;
+
+        /// <summary>Raised once when the song finishes (audio stopped and all
+        /// notes consumed). Used to show the result screen.</summary>
+        public event Action OnSongFinished;
 
         public ChartData Chart { get; private set; }
         public bool IsPlaying { get; private set; }
@@ -54,19 +57,27 @@ namespace RhythmGame
         {
             if (audioSource == null) audioSource = GetComponent<AudioSource>();
         }
-
-        private void Start()
-        {
-            if (playOnStart) Play().Forget();
-        }
-
+        
         private void OnDestroy()
         {
             _cts?.Cancel();
             _cts?.Dispose();
         }
 
-        public async UniTaskVoid Play()
+        public void StartGame()
+        {
+            Play().Forget();
+        }
+
+        /// <summary>Load and start the given chart file (e.g. "Cat_easy.json").
+        /// Used by the difficulty-selection UI.</summary>
+        public void PlayChart(string fileName)
+        {
+            if (!string.IsNullOrEmpty(fileName)) chartFileName = fileName;
+            Play().Forget();
+        }
+
+        private async UniTaskVoid Play()
         {
             _cts?.Cancel();
             _cts = new CancellationTokenSource();
@@ -83,10 +94,15 @@ namespace RhythmGame
                 IsPlaying = true;
 
                 if (audioSource.clip != null)
+                {
                     audioSource.Play();
+                                        OnPlay?.Invoke();
+                }
                 else
+                {
                     Debug.LogWarning("[ChartPlayer] No AudioClip assigned; " +
-                                     "running chart clock without sound.");
+                                                         "running chart clock without sound.");
+                }
             }
             catch (OperationCanceledException) { }
             catch (Exception e)
@@ -121,6 +137,7 @@ namespace RhythmGame
                 (audioSource.clip == null || !audioSource.isPlaying))
             {
                 IsPlaying = false;
+                OnSongFinished?.Invoke();
             }
         }
     }
