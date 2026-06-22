@@ -1,3 +1,8 @@
+using System.Threading;
+using Cysharp.Threading.Tasks;
+using LitMotion;
+using LitMotion.Extensions;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -23,6 +28,12 @@ namespace RhythmGame
 
         [Tooltip("Panel shown for selection; hidden once a difficulty starts.")]
         [SerializeField] private GameObject selectionPanel;
+        
+        [Header("CountDown")]
+        [SerializeField] private GameObject countDownPanel;
+        [SerializeField] private TextMeshProUGUI countDownText;
+        [SerializeField] private AudioSource countDownSoundSource;
+        [SerializeField] private AudioClip countDownSound;
 
         private void Awake()
         {
@@ -34,22 +45,24 @@ namespace RhythmGame
                 hardButton.onClick.AddListener(() => Select(hardChart));
         }
 
-        private void Start()
+        private async void Start()
         {
             // Retry path: a difficulty was already chosen before the reload, so
             // skip the menu and replay it immediately.
             if (GameSession.HasSelection)
             {
                 if (selectionPanel != null) selectionPanel.SetActive(false);
+                await CountDown(3,this.GetCancellationTokenOnDestroy());
                 chartPlayer.PlayChart(GameSession.SelectedChart);
             }
             else if (selectionPanel != null)
             {
                 selectionPanel.SetActive(true);
+                countDownPanel.SetActive(false);
             }
         }
 
-        private void Select(string chartFile)
+        private async void Select(string chartFile)
         {
             if (chartPlayer == null)
             {
@@ -58,8 +71,25 @@ namespace RhythmGame
             }
 
             GameSession.SelectedChart = chartFile;
-            chartPlayer.PlayChart(chartFile);
             if (selectionPanel != null) selectionPanel.SetActive(false);
+            await CountDown(3,this.GetCancellationTokenOnDestroy());
+            chartPlayer.PlayChart(chartFile);
+        }
+        
+        private async UniTask CountDown(int countDown, CancellationToken token)
+        {
+            countDownPanel.SetActive(true);
+            int c = countDown;
+            countDownSoundSource.PlayOneShot(countDownSound);
+            while (c >= 0)
+            {
+                countDownText.text = c.ToString();
+                await LMotion.Create(300f, 325f, 1f)
+                    .WithOnComplete(() => c--)
+                    .Bind(v => countDownText.fontSize = v)
+                    .ToUniTask(token);
+            }
+            countDownPanel.SetActive(false);
         }
     }
 }

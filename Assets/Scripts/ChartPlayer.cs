@@ -28,8 +28,6 @@ namespace RhythmGame
 
         /// <summary>Raised when a note reaches its exact hit time.</summary>
         public event Action<Note> OnNoteHit;
-        
-        public event Action OnPlay;
 
         /// <summary>Raised once when the song finishes (audio stopped and all
         /// notes consumed). Used to show the result screen.</summary>
@@ -64,11 +62,6 @@ namespace RhythmGame
             _cts?.Dispose();
         }
 
-        public void StartGame()
-        {
-            Play().Forget();
-        }
-
         /// <summary>Load and start the given chart file (e.g. "Cat_easy.json").
         /// Used by the difficulty-selection UI.</summary>
         public void PlayChart(string fileName)
@@ -95,8 +88,7 @@ namespace RhythmGame
 
                 if (audioSource.clip != null)
                 {
-                    audioSource.Play();
-                                        OnPlay?.Invoke();
+                    audioSource.Play(); 
                 }
                 else
                 {

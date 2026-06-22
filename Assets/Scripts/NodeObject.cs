@@ -87,6 +87,7 @@ namespace RhythmGame
                 await UniTask.Yield(token);
             }
             transform.position = destroyPos;
+            ReturnToPool();
         }
         /// <summary>Return this note to the pool once it has been judged.
         /// Idempotent: a second call (e.g. from the return-line trigger) is a
@@ -103,15 +104,6 @@ namespace RhythmGame
         {
             // Safety net: never leave a movement running on a pooled instance.
             CancelMovement();
-        }
-
-        private void OnTriggerEnter(Collider other)
-        {
-            if (other.CompareTag("NoteReturnLine"))
-            {
-                // Same idempotent path as judgement so the two can't double-release.
-                ReturnToPool();
-            }
         }
     }
 }
