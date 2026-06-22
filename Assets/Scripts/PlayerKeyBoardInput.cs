@@ -20,6 +20,9 @@ public class PlayerKeyBoardInput : MonoBehaviour
     [SerializeField] private EffectPool effectPool;
     [Tooltip("World position per lane (index = judgement lane 0..3) where the hit effect plays.")]
     [SerializeField] private Transform[] laneEffectPoints;
+    
+    [SerializeField] private AudioClip judgementSound;
+    [SerializeField] private AudioSource[] audioSource = new AudioSource[4];
 
     [SerializeField] private float _turnDuration = 0.1f;
     private PlayerInput _playerInput;
@@ -56,6 +59,7 @@ public class PlayerKeyBoardInput : MonoBehaviour
             catController.HandleTurn(false, false, _turnDuration).Forget();
             judgementManager.NoteJudgement(3, chartPlayer.SongTime);
             PlayHitEffect(3);
+            PlayAudio();
         }
     }
     private void HandleLane02(InputAction.CallbackContext context)
@@ -66,6 +70,7 @@ public class PlayerKeyBoardInput : MonoBehaviour
             catController.HandleTurn(true, false, _turnDuration).Forget();
             judgementManager.NoteJudgement(2, chartPlayer.SongTime);
             PlayHitEffect(2);
+            PlayAudio();
         }
     }
     private void HandleLane03(InputAction.CallbackContext context)
@@ -76,6 +81,7 @@ public class PlayerKeyBoardInput : MonoBehaviour
             catController.HandleTurn(false, true, _turnDuration).Forget();
             judgementManager.NoteJudgement(1, chartPlayer.SongTime);
             PlayHitEffect(1);
+            PlayAudio();
         }
     }
     private void HandleLane04(InputAction.CallbackContext context)
@@ -86,6 +92,7 @@ public class PlayerKeyBoardInput : MonoBehaviour
             catController.HandleTurn(true, true, _turnDuration).Forget();
             judgementManager.NoteJudgement(0, chartPlayer.SongTime);
             PlayHitEffect(0);
+            PlayAudio();
         }
     }
 
@@ -108,5 +115,18 @@ public class PlayerKeyBoardInput : MonoBehaviour
             })
             .BindToLocalScaleXYZ(tran)
             .AddTo(this);
+    }
+
+    private void PlayAudio()
+    {
+        foreach (var source in audioSource)
+        {
+            if (source != null && !source.isPlaying)
+            {
+                source.PlayOneShot(judgementSound);
+                return;
+            }
+        }
+        Debug.Log("no audioSource to Playing audio");
     }
 }

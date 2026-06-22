@@ -119,7 +119,7 @@ namespace RhythmGame
             }
 
             // Peek first — don't consume the note until we know it's in range.
-            var active = _laneQueues[lane].Peek();
+            ActiveNote active = _laneQueues[lane].Peek();
             var diff = Mathf.Abs(active.Note.time - time);
 
             // Outside the hit window: treat as an early/stray tap and leave the
