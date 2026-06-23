@@ -1,6 +1,7 @@
+using System.Threading;
+using Cysharp.Threading.Tasks;
 using LitMotion;
 using LitMotion.Extensions;
-using R3;
 using RhythmGame;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -20,12 +21,15 @@ public class PlayerKeyBoardInput : MonoBehaviour
     [SerializeField] private EffectPool effectPool;
     [Tooltip("World position per lane (index = judgement lane 0..3) where the hit effect plays.")]
     [SerializeField] private Transform[] laneEffectPoints;
-    
-    [SerializeField] private AudioClip judgementSound;
-    [SerializeField] private AudioSource[] audioSource = new AudioSource[4];
 
     [SerializeField] private float _turnDuration = 0.1f;
     private PlayerInput _playerInput;
+
+    private CancellationTokenSource _lane1Cts;
+    private CancellationTokenSource _lane2Cts;
+    private CancellationTokenSource _lane3Cts;
+    private CancellationTokenSource _lane4Cts;
+    
     private void Start()
     {
         _playerInput = new PlayerInput();
@@ -35,6 +39,12 @@ public class PlayerKeyBoardInput : MonoBehaviour
         _playerInput.Player.Lane2.performed += HandleLane02;
         _playerInput.Player.Lane3.performed += HandleLane03;
         _playerInput.Player.Lane4.performed += HandleLane04;
+
+        // Key release ends a hold (Button actions raise `canceled` on release).
+        _playerInput.Player.Lane1.canceled += HandleLane01Release;
+        _playerInput.Player.Lane2.canceled += HandleLane02Release;
+        _playerInput.Player.Lane3.canceled += HandleLane03Release;
+        _playerInput.Player.Lane4.canceled += HandleLane04Release;
     }
 
     private void OnDestroy()
@@ -46,9 +56,44 @@ public class PlayerKeyBoardInput : MonoBehaviour
         _playerInput.Player.Lane3.performed -= HandleLane03;
         _playerInput.Player.Lane4.performed -= HandleLane04;
 
+        _playerInput.Player.Lane1.canceled -= HandleLane01Release;
+        _playerInput.Player.Lane2.canceled -= HandleLane02Release;
+        _playerInput.Player.Lane3.canceled -= HandleLane03Release;
+        _playerInput.Player.Lane4.canceled -= HandleLane04Release;
+
         _playerInput.Player.Disable();
         _playerInput.Dispose();
         _playerInput = null;
+        
+        CancelToken(ref _lane1Cts);
+        CancelToken(ref _lane2Cts);
+        CancelToken(ref _lane3Cts);
+        CancelToken(ref _lane4Cts);
+    }
+
+    // Lane key released -> finish any active hold in that judgement lane.
+    private void HandleLane01Release(InputAction.CallbackContext _)
+    { 
+        judgementManager.HoldRelease(3, chartPlayer.SongTime);
+        CancelToken(ref _lane1Cts);
+    }
+        
+    private void HandleLane02Release(InputAction.CallbackContext _)
+    {
+        judgementManager.HoldRelease(2, chartPlayer.SongTime);
+        CancelToken(ref _lane2Cts);
+    }
+
+    private void HandleLane03Release(InputAction.CallbackContext _)
+    {
+        judgementManager.HoldRelease(1, chartPlayer.SongTime);
+        CancelToken(ref _lane3Cts);
+    }
+        
+    private void HandleLane04Release(InputAction.CallbackContext _)
+    {
+        judgementManager.HoldRelease(0, chartPlayer.SongTime);
+        CancelToken(ref _lane4Cts);
     }
 
     private void HandleLane01(InputAction.CallbackContext context)
@@ -58,8 +103,9 @@ public class PlayerKeyBoardInput : MonoBehaviour
             HandleMovement(imageX.rectTransform);
             catController.HandleTurn(false, false, _turnDuration).Forget();
             judgementManager.NoteJudgement(3, chartPlayer.SongTime);
-            PlayHitEffect(3);
-            PlayAudio();
+            if(_lane1Cts != null) CancelToken(ref _lane1Cts);
+            _lane1Cts = new CancellationTokenSource();
+            PlayHitEffect(3,_lane1Cts.Token).Forget();
         }
     }
     private void HandleLane02(InputAction.CallbackContext context)
@@ -69,8 +115,9 @@ public class PlayerKeyBoardInput : MonoBehaviour
             HandleMovement(imageC.rectTransform);
             catController.HandleTurn(true, false, _turnDuration).Forget();
             judgementManager.NoteJudgement(2, chartPlayer.SongTime);
-            PlayHitEffect(2);
-            PlayAudio();
+            if(_lane2Cts != null) CancelToken(ref _lane2Cts);
+            _lane2Cts = new CancellationTokenSource();
+            PlayHitEffect(2,_lane2Cts.Token).Forget();
         }
     }
     private void HandleLane03(InputAction.CallbackContext context)
@@ -80,8 +127,9 @@ public class PlayerKeyBoardInput : MonoBehaviour
             HandleMovement(imageN.rectTransform);
             catController.HandleTurn(false, true, _turnDuration).Forget();
             judgementManager.NoteJudgement(1, chartPlayer.SongTime);
-            PlayHitEffect(1);
-            PlayAudio();
+            if(_lane3Cts != null) CancelToken(ref _lane3Cts);
+            _lane3Cts = new CancellationTokenSource();
+            PlayHitEffect(1,_lane3Cts.Token).Forget();
         }
     }
     private void HandleLane04(InputAction.CallbackContext context)
@@ -91,17 +139,37 @@ public class PlayerKeyBoardInput : MonoBehaviour
             HandleMovement(imageM.rectTransform);
             catController.HandleTurn(true, true, _turnDuration).Forget();
             judgementManager.NoteJudgement(0, chartPlayer.SongTime);
-            PlayHitEffect(0);
-            PlayAudio();
+            if(_lane4Cts != null) CancelToken(ref _lane4Cts);
+            _lane4Cts = new CancellationTokenSource();
+            PlayHitEffect(0,_lane4Cts.Token).Forget();
         }
     }
 
-    private void PlayHitEffect(int lane)
+    private async UniTaskVoid PlayHitEffect(int lane , CancellationToken token)
     {
         if (effectPool == null || laneEffectPoints == null) return;
         if (lane < 0 || lane >= laneEffectPoints.Length) return;
         var point = laneEffectPoints[lane];
-        if (point != null) effectPool.Play(point.position);
+        ParticleSystem ps = null;
+        if (point != null)
+        {   
+            ps = effectPool.Play(point);
+        }
+        try
+        {
+            await UniTask.WaitUntil(() => token.IsCancellationRequested, cancellationToken: token);
+        }
+        catch (System.OperationCanceledException)
+        {
+            // Expected cancellation
+        }
+        finally
+        {
+            if (ps != null)
+            {
+                effectPool.StopPlay(ps);
+            }
+        }
     }
 
     private void HandleMovement(RectTransform tran)
@@ -117,16 +185,18 @@ public class PlayerKeyBoardInput : MonoBehaviour
             .AddTo(this);
     }
 
-    private void PlayAudio()
+    private void CancelToken(ref CancellationTokenSource cts)
     {
-        foreach (var source in audioSource)
+        if (cts == null) return;
+        try
         {
-            if (source != null && !source.isPlaying)
-            {
-                source.PlayOneShot(judgementSound);
-                return;
-            }
+            cts.Cancel();
         }
-        Debug.Log("no audioSource to Playing audio");
+        catch (System.ObjectDisposedException)
+        {
+            // Already disposed
+        }
+        cts.Dispose();
+        cts = null;
     }
 }

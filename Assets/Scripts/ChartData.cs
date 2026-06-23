@@ -16,6 +16,8 @@ namespace RhythmGame
         public int intensity;    // discrete level 1..levels
         public int lane;         // 0..lanes-1 (assigned by spectral centroid)
         public float centroidHz; // spectral centroid at the onset
+        public float duration;   // 0 = tap, >0 = hold length in seconds (hold head)
+        public int noteType;     // 0 = tap, 1 = hold head, 2 = hold tail (visual only)
     }
 
     /// <summary>

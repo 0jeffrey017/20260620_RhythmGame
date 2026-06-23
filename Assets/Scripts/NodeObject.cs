@@ -10,6 +10,33 @@ namespace RhythmGame
     {
         public IObjectPool<NodeObject> pool;
 
+        [Tooltip("Line drawn from the note head back along the lane for hold notes.")]
+        [SerializeField] private LineRenderer holdLine;
+
+        // World-space length of the trailing hold line (0 = tap, no line).
+        private float _holdLength;
+
+        /// <summary>Set the hold tail length in world units. 0 = plain tap.</summary>
+        public void Configure(float holdWorldLength)
+        {
+            _holdLength = Mathf.Max(0f, holdWorldLength);
+            if (holdLine != null)
+            {
+                holdLine.useWorldSpace = true;
+                holdLine.positionCount = 2;
+                holdLine.enabled = _holdLength > 0f;
+            }
+        }
+
+
+        // Draw the hold line from the head backwards along the travel direction.
+        private void UpdateHoldLine(Vector3 head, Vector3 moveDir)
+        {
+            if (holdLine == null || _holdLength <= 0f) return;
+            holdLine.SetPosition(0, head);
+            holdLine.SetPosition(1, head - moveDir * _holdLength);
+        }
+
         // Incremented every time this instance is taken from the pool. A queued
         // reference in JudgementManager captures the value at spawn time, so a
         // stale reference (whose instance has since been reused for another
@@ -63,26 +90,33 @@ namespace RhythmGame
             float duration,
             CancellationToken token)
         {
+            Vector3 dir1 = (endPos - startPos).sqrMagnitude > 1e-8f
+                ? (endPos - startPos).normalized : Vector3.zero;
             float timer = 0;
             while (timer < duration && !token.IsCancellationRequested)
             {
                 float t = timer / duration;
                 transform.position = Vector3.Lerp(startPos, endPos, t);
+                UpdateHoldLine(transform.position, dir1);
                 timer += Time.deltaTime;
                 await UniTask.Yield(token);
             }
             transform.position = endPos;
-            
+            UpdateHoldLine(endPos, dir1);
+
             float firstDistance = Vector3.Distance(startPos, endPos);
             float speed = firstDistance > 0f ? firstDistance / duration : 0f;
-            
+
             float destroyDistance = Vector3.Distance(endPos, destroyPos);
             float destroyDuration = speed > 0f ? destroyDistance / speed : 0f;
+            Vector3 dir2 = (destroyPos - endPos).sqrMagnitude > 1e-8f
+                ? (destroyPos - endPos).normalized : dir1;
             timer = 0;
             while (timer < destroyDuration && !token.IsCancellationRequested)
             {
                 float t = timer / destroyDuration;
                 transform.position = Vector3.Lerp(endPos, destroyPos, t);
+                UpdateHoldLine(transform.position, dir2);
                 timer += Time.deltaTime;
                 await UniTask.Yield(token);
             }

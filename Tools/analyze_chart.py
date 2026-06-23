@@ -158,7 +158,19 @@ def estimate_bpm(env, sr, hop, bpm_min=60.0, bpm_max=200.0):
 # ----------------------------------------------------------------------------
 # Notes assembly
 # ----------------------------------------------------------------------------
-def build_notes(env, times, centroids, peaks, lanes, levels):
+def build_notes(env, times, centroids, peaks, lanes, levels,
+                chord_rate=0.0, hold_rate=0.0, min_hold=0.4, max_hold=1.0,
+                hold_margin=0.1, rng=None):
+    """Build the note list from picked peaks.
+
+    Every note carries a `duration` (0 = tap, >0 = hold length in seconds).
+    Chords are emitted as a second simultaneous note in a different lane on
+    strong onsets. Holds are added in a post-pass where a lane has enough room
+    before its next note. `rng` (numpy Generator) makes the result reproducible.
+    """
+    if rng is None:
+        rng = np.random.default_rng(0)
+
     env_n = normalize(env)
     notes = []
     if len(centroids) > 0:
@@ -168,6 +180,26 @@ def build_notes(env, times, centroids, peaks, lanes, levels):
         c_lo, c_hi = 0.0, 1.0
     span = max(c_hi - c_lo, 1e-6)
 
+    # Tracks (time, lane) already used so chords never double-stack a lane.
+    used = set()
+
+    def add_note(t, strength, level, lane, c):
+        key = (round(t, 4), lane)
+        if key in used:
+            return None
+        used.add(key)
+        n = {
+            "time": round(float(t), 4),
+            "strength": round(strength, 4),
+            "intensity": level,
+            "lane": lane,
+            "centroidHz": round(c, 1),
+            "duration": 0.0,
+            "noteType": 0,  # 0 = tap, 1 = hold head, 2 = hold tail
+        }
+        notes.append(n)
+        return n
+
     for i in peaks:
         strength = float(env_n[i])
         # intensity level 1..levels
@@ -175,15 +207,78 @@ def build_notes(env, times, centroids, peaks, lanes, levels):
         # lane 0..lanes-1 by spectral centroid (low freq -> lane 0)
         c = float(centroids[i])
         lane = int(np.clip((c - c_lo) / span * lanes, 0, lanes - 1))
-        notes.append({
-            "time": round(float(times[i]), 4),
-            "strength": round(strength, 4),
-            "intensity": level,
-            "lane": lane,
-            "centroidHz": round(c, 1),
-        })
+        t = round(float(times[i]), 4)
+        add_note(t, strength, level, lane, c)
+
+        # Chord: on strong onsets, drop a second simultaneous note in another
+        # lane. Skipped when there is only one lane or chord_rate is 0.
+        if lanes > 1 and chord_rate > 0.0 and level >= levels \
+                and rng.random() < chord_rate:
+            others = [l for l in range(lanes) if l != lane]
+            lane2 = int(others[int(rng.integers(len(others)))])
+            add_note(t, strength, level, lane2, c)
+
     notes.sort(key=lambda n: n["time"])
+
+    if hold_rate > 0.0:
+        tails = _apply_holds(notes, lanes, hold_rate, min_hold, max_hold,
+                             hold_margin, rng)
+        if tails:
+            notes.extend(tails)
+            notes.sort(key=lambda n: n["time"])
     return notes
+
+
+def _apply_holds(notes, lanes, hold_rate, min_hold, max_hold, hold_margin, rng):
+    """Turn some taps into holds where their lane has room before the next note.
+
+    A hold is emitted as two connected notes in the same lane: the head
+    (noteType 1, carrying the hold length in `duration`) and a tail (noteType 2,
+    visual only) at head.time + duration. No other note is placed between them:
+    the duration is capped by the gap to the next same-lane note (minus a safety
+    margin) so the lane is reserved for [time, time+duration]. Returns the list
+    of newly created tail notes to be merged back into the chart.
+    """
+    by_lane = {l: [] for l in range(lanes)}
+    for n in notes:
+        by_lane.setdefault(n["lane"], []).append(n)
+
+    tails = []
+    for lane_notes in by_lane.values():
+        lane_notes.sort(key=lambda n: n["time"])
+        for idx, n in enumerate(lane_notes):
+            nxt = lane_notes[idx + 1]["time"] if idx + 1 < len(lane_notes) \
+                else float("inf")
+            gap = nxt - n["time"]
+            if gap < min_hold + hold_margin:
+                continue
+            if rng.random() >= hold_rate:
+                continue
+            cap = max_hold if gap == float("inf") else gap - hold_margin
+            dur = float(np.clip(cap, min_hold, max_hold))
+            n["duration"] = round(dur, 4)
+            n["noteType"] = 1  # hold head
+            tails.append({
+                "time": round(n["time"] + dur, 4),
+                "strength": n["strength"],
+                "intensity": n["intensity"],
+                "lane": n["lane"],
+                "centroidHz": n["centroidHz"],
+                "duration": 0.0,
+                "noteType": 2,  # hold tail (visual only)
+            })
+    return tails
+
+
+# Difficulty presets: note density (delta/min-gap) plus how many chords/holds.
+PRESETS = {
+    "easy":   {"delta": 0.12, "min_gap": 0.18, "chord_rate": 0.00,
+               "hold_rate": 0.25, "min_hold": 0.4, "max_hold": 0.8},
+    "normal": {"delta": 0.08, "min_gap": 0.12, "chord_rate": 0.10,
+               "hold_rate": 0.35, "min_hold": 0.4, "max_hold": 1.0},
+    "hard":   {"delta": 0.05, "min_gap": 0.09, "chord_rate": 0.22,
+               "hold_rate": 0.18, "min_hold": 0.4, "max_hold": 1.2},
+}
 
 
 def main():
@@ -192,15 +287,38 @@ def main():
                     help="input WAV path (default: Assets/Cat.wav)")
     ap.add_argument("-o", "--out", default="Assets/StreamingAssets/Cat_chart",
                     help="output basename (without extension)")
+    ap.add_argument("--preset", choices=sorted(PRESETS.keys()), default=None,
+                    help="difficulty preset; sets delta/min-gap/chord/hold "
+                         "defaults (individual flags override)")
     ap.add_argument("--lanes", type=int, default=4)
     ap.add_argument("--levels", type=int, default=4)
     ap.add_argument("--frame", type=int, default=2048)
     ap.add_argument("--hop", type=int, default=512)
-    ap.add_argument("--delta", type=float, default=0.06,
+    ap.add_argument("--delta", type=float, default=None,
                     help="peak threshold above local mean (higher = fewer notes)")
-    ap.add_argument("--min-gap", type=float, default=0.09,
+    ap.add_argument("--min-gap", type=float, default=None,
                     help="minimum seconds between notes")
+    ap.add_argument("--chord-rate", type=float, default=None,
+                    help="0..1 chance a strong onset adds a simultaneous note")
+    ap.add_argument("--hold-rate", type=float, default=None,
+                    help="0..1 chance an eligible tap becomes a hold")
+    ap.add_argument("--min-hold", type=float, default=None,
+                    help="minimum hold length in seconds")
+    ap.add_argument("--max-hold", type=float, default=None,
+                    help="maximum hold length in seconds")
+    ap.add_argument("--seed", type=int, default=0,
+                    help="RNG seed for reproducible chords/holds")
     args = ap.parse_args()
+
+    # Resolve preset defaults, then apply any explicit overrides.
+    p = PRESETS.get(args.preset, {})
+    delta = args.delta if args.delta is not None else p.get("delta", 0.06)
+    min_gap = args.min_gap if args.min_gap is not None else p.get("min_gap", 0.09)
+    chord_rate = args.chord_rate if args.chord_rate is not None else p.get("chord_rate", 0.0)
+    hold_rate = args.hold_rate if args.hold_rate is not None else p.get("hold_rate", 0.0)
+    min_hold = args.min_hold if args.min_hold is not None else p.get("min_hold", 0.4)
+    max_hold = args.max_hold if args.max_hold is not None else p.get("max_hold", 1.0)
+    args.delta, args.min_gap = delta, min_gap
 
     if not os.path.isfile(args.input):
         sys.exit(f"Input not found: {args.input}")
@@ -217,8 +335,17 @@ def main():
     print("[3/4] Peak picking + BPM estimation ...")
     peaks = pick_peaks(env, sr, hop, delta=args.delta, min_gap=args.min_gap)
     bpm = estimate_bpm(env, sr, hop)
-    notes = build_notes(env, times, centroids, peaks, args.lanes, args.levels)
-    print(f"      notes={len(notes)}, bpm={bpm}")
+    rng = np.random.default_rng(args.seed)
+    notes = build_notes(env, times, centroids, peaks, args.lanes, args.levels,
+                        chord_rate=chord_rate, hold_rate=hold_rate,
+                        min_hold=min_hold, max_hold=max_hold,
+                        hold_margin=min_gap, rng=rng)
+    n_holds = sum(1 for n in notes if n.get("noteType") == 1)
+    n_tails = sum(1 for n in notes if n.get("noteType") == 2)
+    taps = [n for n in notes if n.get("noteType") == 0]
+    n_chords = len(taps) - len({round(n["time"], 4) for n in taps})
+    print(f"      notes={len(notes)}, holds={n_holds} (+{n_tails} tails), "
+          f"chord-extra={n_chords}, bpm={bpm}")
 
     offset = notes[0]["time"] if notes else 0.0
     chart = {
@@ -243,10 +370,12 @@ def main():
 
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["time", "strength", "intensity", "lane", "centroidHz"])
+        w.writerow(["time", "strength", "intensity", "lane", "centroidHz",
+                    "duration", "noteType"])
         for n in notes:
             w.writerow([n["time"], n["strength"], n["intensity"],
-                        n["lane"], n["centroidHz"]])
+                        n["lane"], n["centroidHz"], n["duration"],
+                        n["noteType"]])
 
     print("Done.")
     print(f"  BPM       : {bpm}")

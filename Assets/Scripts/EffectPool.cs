@@ -31,20 +31,26 @@ namespace RhythmGame
                 maxPoolSize);
 
         /// <summary>Play an effect at the given world position.</summary>
-        public void Play(Vector3 position)
+        public ParticleSystem Play(Transform tran)
         {
             var ps = Pool.Get();
-            ps.transform.position = position;
+            ps.transform.position = tran.position;
+            ps.transform.rotation = tran.rotation;
+            
+            var main = ps.main;
+            main.loop = true;
+            var cps = ps.GetComponentsInChildren<ParticleSystem>();
+            foreach (var cp in cps)
+            {
+                var m =  cp.main;
+                m.loop = true;
+            }
             ps.Play(true);
-            StartCoroutine(ReleaseWhenDone(ps));
+            return ps;
         }
 
-        private IEnumerator ReleaseWhenDone(ParticleSystem ps)
+        public void StopPlay(ParticleSystem ps)
         {
-            // Wait a frame so IsAlive reports the freshly started particles.
-            yield return null;
-            while (ps != null && ps.IsAlive(true))
-                yield return null;
             if (ps != null)
                 Pool.Release(ps);
         }
@@ -64,6 +70,14 @@ namespace RhythmGame
 
         private void OnReturnedToPool(ParticleSystem ps)
         {
+            var main = ps.main;
+            main.loop = false;
+            var cps = ps.GetComponentsInChildren<ParticleSystem>();
+            foreach (var cp in cps)
+            {
+                var m =  cp.main;
+                m.loop = false;
+            }
             ps.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
             ps.gameObject.SetActive(false);
         }
