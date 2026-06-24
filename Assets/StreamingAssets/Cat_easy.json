@@ -6,2492 +6,3400 @@
   "offset": 1.5467,
   "lanes": 4,
   "levels": 4,
-  "noteCount": 355,
+  "noteCount": 377,
   "notes": [
     {
       "time": 1.5467,
       "strength": 0.54,
       "intensity": 3,
       "lane": 3,
-      "centroidHz": 4505.7
+      "centroidHz": 4505.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 1.7493,
       "strength": 0.4611,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3380.2
+      "centroidHz": 3380.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 1.952,
       "strength": 0.3715,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2428.8
+      "centroidHz": 2428.8,
+      "duration": 0.4173,
+      "noteType": 1
+    },
+    {
+      "time": 2.3693,
+      "strength": 0.3715,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2428.8,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 2.5493,
       "strength": 0.3564,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 3051.8
+      "centroidHz": 3051.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 2.752,
       "strength": 0.3846,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2376.1
+      "centroidHz": 2376.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 2.9547,
       "strength": 0.213,
       "intensity": 1,
       "lane": 1,
-      "centroidHz": 2668.2
+      "centroidHz": 2668.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 3.3493,
       "strength": 0.1865,
       "intensity": 1,
       "lane": 0,
-      "centroidHz": 2132.5
+      "centroidHz": 2132.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 4.7467,
       "strength": 0.5481,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 3989.4
+      "centroidHz": 3989.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 4.9493,
       "strength": 0.4801,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3526.1
+      "centroidHz": 3526.1,
+      "duration": 0.8,
+      "noteType": 1
     },
     {
       "time": 5.152,
       "strength": 0.3901,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2420.9
+      "centroidHz": 2420.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 5.7493,
       "strength": 0.3956,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2934.4
+      "centroidHz": 2934.4,
+      "duration": 0.0,
+      "noteType": 0
+    },
+    {
+      "time": 5.7493,
+      "strength": 0.4801,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3526.1,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 5.952,
       "strength": 0.3648,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2335.8
+      "centroidHz": 2335.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 6.1547,
       "strength": 0.201,
       "intensity": 1,
       "lane": 1,
-      "centroidHz": 2684.7
+      "centroidHz": 2684.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 6.3467,
       "strength": 0.1874,
       "intensity": 1,
       "lane": 1,
-      "centroidHz": 2890.3
+      "centroidHz": 2890.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 7.9467,
       "strength": 0.5502,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 3764.4
+      "centroidHz": 3764.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 8.1493,
       "strength": 0.4511,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3389.3
+      "centroidHz": 3389.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 8.352,
       "strength": 0.3912,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2448.5
+      "centroidHz": 2448.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 8.9493,
       "strength": 0.3721,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 3034.7
+      "centroidHz": 3034.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 9.152,
       "strength": 0.3815,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2384.9
+      "centroidHz": 2384.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 9.3547,
       "strength": 0.2155,
       "intensity": 1,
       "lane": 1,
-      "centroidHz": 2823.0
+      "centroidHz": 2823.0,
+      "duration": 0.8,
+      "noteType": 1
     },
     {
       "time": 9.7493,
       "strength": 0.1983,
       "intensity": 1,
       "lane": 0,
-      "centroidHz": 2020.5
+      "centroidHz": 2020.5,
+      "duration": 0.0,
+      "noteType": 0
+    },
+    {
+      "time": 10.1547,
+      "strength": 0.2155,
+      "intensity": 1,
+      "lane": 1,
+      "centroidHz": 2823.0,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 11.1467,
       "strength": 0.5385,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 3782.1
+      "centroidHz": 3782.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 11.3493,
       "strength": 0.4649,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3392.6
+      "centroidHz": 3392.6,
+      "duration": 0.8,
+      "noteType": 1
     },
     {
       "time": 11.552,
       "strength": 0.3739,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2445.2
+      "centroidHz": 2445.2,
+      "duration": 0.4173,
+      "noteType": 1
+    },
+    {
+      "time": 11.9693,
+      "strength": 0.3739,
+      "intensity": 2,
+      "lane": 1,
+      "centroidHz": 2445.2,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 12.1493,
       "strength": 0.383,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2868.5
+      "centroidHz": 2868.5,
+      "duration": 0.0,
+      "noteType": 0
+    },
+    {
+      "time": 12.1493,
+      "strength": 0.4649,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3392.6,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 12.352,
       "strength": 0.3677,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2440.0
+      "centroidHz": 2440.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 12.5547,
       "strength": 0.2117,
       "intensity": 1,
       "lane": 1,
-      "centroidHz": 2801.2
+      "centroidHz": 2801.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 14.3467,
       "strength": 0.5813,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 4235.9
+      "centroidHz": 4235.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 14.5493,
       "strength": 0.4898,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 3306.3
+      "centroidHz": 3306.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 14.752,
       "strength": 0.4082,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2612.6
+      "centroidHz": 2612.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 14.944,
       "strength": 0.2832,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 3096.4
+      "centroidHz": 3096.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 15.3493,
       "strength": 0.4045,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 3279.1
+      "centroidHz": 3279.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 15.552,
       "strength": 0.4085,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2713.4
+      "centroidHz": 2713.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 15.744,
       "strength": 0.2448,
       "intensity": 1,
       "lane": 1,
-      "centroidHz": 3289.9
+      "centroidHz": 3289.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 15.9467,
       "strength": 0.2241,
       "intensity": 1,
       "lane": 2,
-      "centroidHz": 3345.9
+      "centroidHz": 3345.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 16.1493,
       "strength": 0.2552,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 3105.6
+      "centroidHz": 3105.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 16.448,
       "strength": 0.2194,
       "intensity": 1,
       "lane": 2,
-      "centroidHz": 3325.5
+      "centroidHz": 3325.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 16.6507,
       "strength": 0.2233,
       "intensity": 1,
       "lane": 1,
-      "centroidHz": 3045.5
+      "centroidHz": 3045.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 17.5467,
       "strength": 0.5258,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 4109.2
+      "centroidHz": 4109.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 17.7493,
       "strength": 0.49,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3758.6
+      "centroidHz": 3758.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 17.952,
       "strength": 0.3902,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 3105.6
+      "centroidHz": 3105.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 18.144,
       "strength": 0.3143,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3863.7
+      "centroidHz": 3863.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 18.3467,
       "strength": 0.2371,
       "intensity": 1,
       "lane": 2,
-      "centroidHz": 3984.8
+      "centroidHz": 3984.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 18.5493,
       "strength": 0.4037,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3817.8
+      "centroidHz": 3817.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 18.752,
       "strength": 0.3981,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 3307.0
+      "centroidHz": 3307.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 18.944,
       "strength": 0.2655,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 4335.6
+      "centroidHz": 4335.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 19.1467,
       "strength": 0.3007,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 4244.8
+      "centroidHz": 4244.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 19.3493,
       "strength": 0.2863,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 4247.1
+      "centroidHz": 4247.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 19.648,
       "strength": 0.2775,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 4278.2
+      "centroidHz": 4278.2,
+      "duration": 0.8,
+      "noteType": 1
     },
     {
       "time": 19.9467,
       "strength": 0.2357,
       "intensity": 1,
       "lane": 3,
-      "centroidHz": 4442.1
+      "centroidHz": 4442.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 20.2453,
       "strength": 0.2693,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4718.1
+      "centroidHz": 4718.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 20.448,
       "strength": 0.2688,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4430.5
+      "centroidHz": 4430.5,
+      "duration": 0.0,
+      "noteType": 0
+    },
+    {
+      "time": 20.448,
+      "strength": 0.2775,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4278.2,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 20.7467,
       "strength": 0.4778,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4660.2
+      "centroidHz": 4660.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 20.9493,
       "strength": 0.5038,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 4197.0
+      "centroidHz": 4197.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 21.152,
       "strength": 0.3981,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3923.7
+      "centroidHz": 3923.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 21.344,
       "strength": 0.3472,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4713.7
+      "centroidHz": 4713.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 21.5467,
       "strength": 0.3411,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4657.1
+      "centroidHz": 4657.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 21.7493,
       "strength": 0.4986,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 4370.2
+      "centroidHz": 4370.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 21.952,
       "strength": 0.4083,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 4037.4
+      "centroidHz": 4037.4,
+      "duration": 0.4173,
+      "noteType": 1
     },
     {
       "time": 22.144,
       "strength": 0.3767,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4562.3
+      "centroidHz": 4562.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 22.3467,
       "strength": 0.3392,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4703.2
+      "centroidHz": 4703.2,
+      "duration": 0.0,
+      "noteType": 0
+    },
+    {
+      "time": 22.3693,
+      "strength": 0.4083,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4037.4,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 22.5493,
       "strength": 0.4778,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 4356.8
+      "centroidHz": 4356.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 22.752,
       "strength": 0.3894,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 4164.2
+      "centroidHz": 4164.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 22.944,
       "strength": 0.3845,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4585.1
+      "centroidHz": 4585.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 23.1467,
       "strength": 0.3684,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4643.3
+      "centroidHz": 4643.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 23.3493,
       "strength": 0.4521,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4434.9
+      "centroidHz": 4434.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 23.552,
       "strength": 0.3892,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 4372.1
+      "centroidHz": 4372.1,
+      "duration": 0.8,
+      "noteType": 1
     },
     {
       "time": 23.744,
       "strength": 0.3505,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4737.8
+      "centroidHz": 4737.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 23.9467,
       "strength": 0.3884,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4944.7
+      "centroidHz": 4944.7,
+      "duration": 0.0,
+      "noteType": 0
+    },
+    {
+      "time": 24.352,
+      "strength": 0.3892,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4372.1,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 24.448,
       "strength": 0.352,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4580.7
+      "centroidHz": 4580.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 25.9947,
       "strength": 0.3462,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4858.1
+      "centroidHz": 4858.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 30.3467,
       "strength": 0.2693,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2619.3
+      "centroidHz": 2619.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 30.5493,
       "strength": 0.4818,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3817.7
+      "centroidHz": 3817.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 30.752,
       "strength": 0.3161,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2566.5
+      "centroidHz": 2566.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 31.3493,
       "strength": 0.3563,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 3170.4
+      "centroidHz": 3170.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 31.552,
       "strength": 0.3051,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2491.8
+      "centroidHz": 2491.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 31.7547,
       "strength": 0.181,
       "intensity": 1,
       "lane": 1,
-      "centroidHz": 3148.6
+      "centroidHz": 3148.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 31.9467,
       "strength": 0.4354,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4796.1
+      "centroidHz": 4796.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 32.1493,
       "strength": 0.496,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4506.6
+      "centroidHz": 4506.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 32.352,
       "strength": 0.3751,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 4138.8
+      "centroidHz": 4138.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 32.544,
       "strength": 0.2824,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 5763.4
+      "centroidHz": 5763.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 33.248,
       "strength": 0.5961,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 4264.1
+      "centroidHz": 4264.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 33.5467,
       "strength": 0.8491,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4334.5
+      "centroidHz": 4334.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 33.7493,
       "strength": 0.6608,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 4306.9
+      "centroidHz": 4306.9,
+      "duration": 0.4174,
+      "noteType": 1
     },
     {
       "time": 33.9413,
       "strength": 0.5847,
       "intensity": 3,
       "lane": 3,
-      "centroidHz": 4549.1
+      "centroidHz": 4549.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 34.144,
       "strength": 0.6274,
       "intensity": 3,
       "lane": 1,
-      "centroidHz": 3009.9
+      "centroidHz": 3009.9,
+      "duration": 0.0,
+      "noteType": 0
+    },
+    {
+      "time": 34.1667,
+      "strength": 0.6608,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4306.9,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 34.3467,
       "strength": 0.7729,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3682.3
+      "centroidHz": 3682.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 34.7413,
       "strength": 0.8014,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3685.7
+      "centroidHz": 3685.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 34.944,
       "strength": 0.6682,
       "intensity": 3,
       "lane": 1,
-      "centroidHz": 2971.2
+      "centroidHz": 2971.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 35.1467,
       "strength": 0.7751,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3746.6
+      "centroidHz": 3746.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 35.5413,
       "strength": 0.8118,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3696.6
+      "centroidHz": 3696.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 35.744,
       "strength": 0.6691,
       "intensity": 3,
       "lane": 1,
-      "centroidHz": 3012.0
+      "centroidHz": 3012.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 35.9467,
       "strength": 0.7809,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3766.1
+      "centroidHz": 3766.1,
+      "duration": 0.4173,
+      "noteType": 1
     },
     {
       "time": 36.2453,
       "strength": 0.8099,
       "intensity": 4,
       "lane": 1,
-      "centroidHz": 3217.1
+      "centroidHz": 3217.1,
+      "duration": 0.0,
+      "noteType": 0
+    },
+    {
+      "time": 36.364,
+      "strength": 0.7809,
+      "intensity": 4,
+      "lane": 2,
+      "centroidHz": 3766.1,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 36.544,
       "strength": 0.7176,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 3711.7
+      "centroidHz": 3711.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 36.7467,
       "strength": 0.7756,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3823.0
+      "centroidHz": 3823.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 36.9493,
       "strength": 0.7508,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3382.8
+      "centroidHz": 3382.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 37.1413,
       "strength": 0.8387,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3702.9
+      "centroidHz": 3702.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 37.344,
       "strength": 0.6753,
       "intensity": 3,
       "lane": 1,
-      "centroidHz": 2986.5
+      "centroidHz": 2986.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 37.5467,
       "strength": 0.7825,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3693.8
+      "centroidHz": 3693.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 37.9413,
       "strength": 0.8412,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3671.1
+      "centroidHz": 3671.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 38.144,
       "strength": 0.679,
       "intensity": 3,
       "lane": 1,
-      "centroidHz": 2952.9
+      "centroidHz": 2952.9,
+      "duration": 0.8,
+      "noteType": 1
     },
     {
       "time": 38.3467,
       "strength": 0.7851,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3774.8
+      "centroidHz": 3774.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 38.7413,
       "strength": 0.8437,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3718.7
+      "centroidHz": 3718.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 38.944,
       "strength": 0.7438,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 3435.4
+      "centroidHz": 3435.4,
+      "duration": 0.0,
+      "noteType": 0
+    },
+    {
+      "time": 38.944,
+      "strength": 0.679,
+      "intensity": 3,
+      "lane": 1,
+      "centroidHz": 2952.9,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 39.1467,
       "strength": 0.8422,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3779.8
+      "centroidHz": 3779.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 39.5413,
       "strength": 0.8565,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3996.9
+      "centroidHz": 3996.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 39.9467,
       "strength": 0.8109,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4043.0
+      "centroidHz": 4043.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 40.1493,
       "strength": 0.9104,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4886.6
+      "centroidHz": 4886.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 40.3413,
       "strength": 0.7983,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3615.2
+      "centroidHz": 3615.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 40.544,
       "strength": 0.8745,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4838.2
+      "centroidHz": 4838.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 40.7467,
       "strength": 0.8172,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4006.6
+      "centroidHz": 4006.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 40.9493,
       "strength": 0.8649,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 5024.6
+      "centroidHz": 5024.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 41.1413,
       "strength": 0.8521,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3937.4
+      "centroidHz": 3937.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 41.344,
       "strength": 0.9094,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4867.7
+      "centroidHz": 4867.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 41.5467,
       "strength": 0.818,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4078.8
+      "centroidHz": 4078.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 41.7493,
       "strength": 0.9375,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4927.7
+      "centroidHz": 4927.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 41.9413,
       "strength": 0.8566,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3929.8
+      "centroidHz": 3929.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 42.144,
       "strength": 0.9316,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4927.5
+      "centroidHz": 4927.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 42.3467,
       "strength": 0.81,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3977.5
+      "centroidHz": 3977.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 42.5493,
       "strength": 0.8706,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 5048.4
+      "centroidHz": 5048.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 42.7413,
       "strength": 0.8359,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4081.5
+      "centroidHz": 4081.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 42.944,
       "strength": 0.915,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4996.8
+      "centroidHz": 4996.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 43.1467,
       "strength": 0.8226,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4109.8
+      "centroidHz": 4109.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 43.3493,
       "strength": 0.951,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4996.5
+      "centroidHz": 4996.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 43.5413,
       "strength": 0.8637,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4021.9
+      "centroidHz": 4021.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 43.744,
       "strength": 0.9082,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4875.7
+      "centroidHz": 4875.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 43.9467,
       "strength": 0.8104,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4049.4
+      "centroidHz": 4049.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 44.1493,
       "strength": 0.8772,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 5013.7
+      "centroidHz": 5013.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 44.3413,
       "strength": 0.8695,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4013.4
+      "centroidHz": 4013.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 44.544,
       "strength": 0.9064,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4959.4
+      "centroidHz": 4959.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 44.7467,
       "strength": 0.8019,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4013.3
+      "centroidHz": 4013.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 44.9493,
       "strength": 0.9195,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4756.7
+      "centroidHz": 4756.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 45.1413,
       "strength": 0.6919,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 3755.1
+      "centroidHz": 3755.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 45.344,
       "strength": 0.8117,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4805.5
+      "centroidHz": 4805.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 45.8453,
       "strength": 0.6841,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 4090.8
+      "centroidHz": 4090.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 46.144,
       "strength": 0.6817,
       "intensity": 3,
       "lane": 3,
-      "centroidHz": 5534.1
+      "centroidHz": 5534.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 46.3467,
       "strength": 0.7064,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 4022.9
+      "centroidHz": 4022.9,
+      "duration": 0.62,
+      "noteType": 1
     },
     {
       "time": 46.5493,
       "strength": 0.863,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 5311.0
+      "centroidHz": 5311.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 46.7413,
       "strength": 0.6427,
       "intensity": 3,
       "lane": 3,
-      "centroidHz": 4542.9
+      "centroidHz": 4542.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 46.944,
       "strength": 0.8974,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4421.1
+      "centroidHz": 4421.1,
+      "duration": 0.0,
+      "noteType": 0
+    },
+    {
+      "time": 46.9667,
+      "strength": 0.7064,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4022.9,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 47.1467,
       "strength": 0.7975,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4039.1
+      "centroidHz": 4039.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 47.4453,
       "strength": 0.9095,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3718.3
+      "centroidHz": 3718.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 47.744,
       "strength": 0.9684,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4509.7
+      "centroidHz": 4509.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 47.9467,
       "strength": 0.8206,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4063.7
+      "centroidHz": 4063.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 48.1493,
       "strength": 0.9395,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 5078.7
+      "centroidHz": 5078.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 48.3413,
       "strength": 0.852,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4104.4
+      "centroidHz": 4104.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 48.544,
       "strength": 0.9453,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4493.9
+      "centroidHz": 4493.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 48.7467,
       "strength": 0.8064,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4022.7
+      "centroidHz": 4022.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 48.9493,
       "strength": 0.8852,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4730.9
+      "centroidHz": 4730.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 49.1413,
       "strength": 0.7451,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 4346.5
+      "centroidHz": 4346.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 49.344,
       "strength": 0.9666,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4851.6
+      "centroidHz": 4851.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 49.5467,
       "strength": 0.794,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4153.4
+      "centroidHz": 4153.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 49.7493,
       "strength": 0.9613,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4972.3
+      "centroidHz": 4972.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 49.9413,
       "strength": 0.8383,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4046.9
+      "centroidHz": 4046.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 50.144,
       "strength": 0.9275,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4495.3
+      "centroidHz": 4495.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 50.3467,
       "strength": 0.8083,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4044.7
+      "centroidHz": 4044.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 50.6453,
       "strength": 0.9164,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3777.8
+      "centroidHz": 3777.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 50.944,
       "strength": 0.9712,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4475.0
+      "centroidHz": 4475.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 51.1467,
       "strength": 0.8183,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4137.9
+      "centroidHz": 4137.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 51.3493,
       "strength": 0.964,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4901.6
+      "centroidHz": 4901.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 51.5413,
       "strength": 0.8404,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4123.7
+      "centroidHz": 4123.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 51.744,
       "strength": 0.9641,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4474.6
+      "centroidHz": 4474.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 51.9467,
       "strength": 0.8613,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4092.8
+      "centroidHz": 4092.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 52.1493,
       "strength": 0.9238,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4807.6
+      "centroidHz": 4807.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 52.3413,
       "strength": 0.8699,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4319.2
+      "centroidHz": 4319.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 52.544,
       "strength": 0.8621,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 5201.3
+      "centroidHz": 5201.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 52.7467,
       "strength": 0.8027,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4056.7
+      "centroidHz": 4056.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 52.9493,
       "strength": 0.8964,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 5036.0
+      "centroidHz": 5036.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 53.1413,
       "strength": 0.7133,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 3879.3
+      "centroidHz": 3879.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 53.344,
       "strength": 0.8955,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4474.4
+      "centroidHz": 4474.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 53.5467,
       "strength": 0.8051,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4013.5
+      "centroidHz": 4013.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 53.8453,
       "strength": 0.9126,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3713.4
+      "centroidHz": 3713.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 54.144,
       "strength": 0.963,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4537.4
+      "centroidHz": 4537.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 54.3467,
       "strength": 0.8153,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4076.7
+      "centroidHz": 4076.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 54.5493,
       "strength": 0.9681,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4882.7
+      "centroidHz": 4882.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 54.7413,
       "strength": 0.8403,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4116.7
+      "centroidHz": 4116.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 54.944,
       "strength": 0.8955,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4274.5
+      "centroidHz": 4274.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 55.1467,
       "strength": 0.8045,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3954.3
+      "centroidHz": 3954.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 55.3493,
       "strength": 0.866,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4896.0
+      "centroidHz": 4896.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 55.5413,
       "strength": 0.7154,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 4128.6
+      "centroidHz": 4128.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 55.744,
       "strength": 0.9445,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4774.6
+      "centroidHz": 4774.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 55.9467,
       "strength": 0.8079,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4125.9
+      "centroidHz": 4125.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 56.1493,
       "strength": 0.9582,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4931.1
+      "centroidHz": 4931.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 56.3413,
       "strength": 0.829,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4031.2
+      "centroidHz": 4031.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 56.544,
       "strength": 0.9256,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4486.7
+      "centroidHz": 4486.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 56.7467,
       "strength": 0.8194,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4039.2
+      "centroidHz": 4039.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 57.0453,
       "strength": 0.8806,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3802.5
+      "centroidHz": 3802.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 57.344,
       "strength": 0.9529,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4460.1
+      "centroidHz": 4460.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 57.5467,
       "strength": 0.7987,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4197.2
+      "centroidHz": 4197.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 57.7493,
       "strength": 0.9985,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 5285.9
+      "centroidHz": 5285.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 57.9413,
       "strength": 0.7792,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4181.0
+      "centroidHz": 4181.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 58.144,
       "strength": 1.0,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4773.4
+      "centroidHz": 4773.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 58.3467,
       "strength": 0.7186,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 4097.6
+      "centroidHz": 4097.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 58.5493,
       "strength": 0.8949,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4849.0
+      "centroidHz": 4849.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 58.7413,
       "strength": 0.6841,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 4204.3
+      "centroidHz": 4204.3,
+      "duration": 0.8,
+      "noteType": 1
     },
     {
       "time": 58.944,
       "strength": 0.7513,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 5244.9
+      "centroidHz": 5244.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 59.3493,
       "strength": 0.32,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2348.9
+      "centroidHz": 2348.9,
+      "duration": 0.0,
+      "noteType": 0
+    },
+    {
+      "time": 59.5413,
+      "strength": 0.6841,
+      "intensity": 3,
+      "lane": 2,
+      "centroidHz": 4204.3,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 59.744,
       "strength": 0.1831,
       "intensity": 1,
       "lane": 0,
-      "centroidHz": 2031.0
+      "centroidHz": 2031.0,
+      "duration": 0.8,
+      "noteType": 1
+    },
+    {
+      "time": 60.544,
+      "strength": 0.1831,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2031.0,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 62.3467,
       "strength": 0.1742,
       "intensity": 1,
       "lane": 0,
-      "centroidHz": 1130.5
+      "centroidHz": 1130.5,
+      "duration": 0.428,
+      "noteType": 1
+    },
+    {
+      "time": 62.7747,
+      "strength": 0.1742,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 1130.5,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 62.9547,
       "strength": 0.274,
       "intensity": 2,
       "lane": 0,
-      "centroidHz": 1452.4
+      "centroidHz": 1452.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 63.552,
       "strength": 0.2906,
       "intensity": 2,
       "lane": 0,
-      "centroidHz": 1380.3
+      "centroidHz": 1380.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 64.9493,
       "strength": 0.331,
       "intensity": 2,
       "lane": 0,
-      "centroidHz": 1555.8
+      "centroidHz": 1555.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 65.152,
       "strength": 0.3616,
       "intensity": 2,
       "lane": 0,
-      "centroidHz": 1640.0
+      "centroidHz": 1640.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 65.3547,
       "strength": 0.3828,
       "intensity": 2,
       "lane": 0,
-      "centroidHz": 1579.7
+      "centroidHz": 1579.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 66.1547,
       "strength": 0.3363,
       "intensity": 2,
       "lane": 0,
-      "centroidHz": 1774.5
+      "centroidHz": 1774.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 66.752,
       "strength": 0.3088,
       "intensity": 2,
       "lane": 0,
-      "centroidHz": 1645.2
+      "centroidHz": 1645.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 68.1493,
       "strength": 0.3801,
       "intensity": 2,
       "lane": 0,
-      "centroidHz": 1688.2
+      "centroidHz": 1688.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 68.352,
       "strength": 0.3572,
       "intensity": 2,
       "lane": 0,
-      "centroidHz": 1786.8
+      "centroidHz": 1786.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 68.5547,
       "strength": 0.3189,
       "intensity": 2,
       "lane": 0,
-      "centroidHz": 1677.5
+      "centroidHz": 1677.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 68.7573,
       "strength": 0.2526,
       "intensity": 2,
       "lane": 0,
-      "centroidHz": 1605.7
+      "centroidHz": 1605.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 69.152,
       "strength": 0.247,
       "intensity": 1,
       "lane": 0,
-      "centroidHz": 1766.6
+      "centroidHz": 1766.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 69.3547,
       "strength": 0.3895,
       "intensity": 2,
       "lane": 0,
-      "centroidHz": 1762.8
+      "centroidHz": 1762.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 69.7493,
       "strength": 0.2269,
       "intensity": 1,
       "lane": 0,
-      "centroidHz": 1831.1
+      "centroidHz": 1831.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 69.952,
       "strength": 0.4015,
       "intensity": 2,
       "lane": 0,
-      "centroidHz": 1696.4
+      "centroidHz": 1696.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 71.3493,
       "strength": 0.3982,
       "intensity": 2,
       "lane": 0,
-      "centroidHz": 1686.0
+      "centroidHz": 1686.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 71.552,
       "strength": 0.4321,
       "intensity": 2,
       "lane": 0,
-      "centroidHz": 1904.9
+      "centroidHz": 1904.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 71.7547,
       "strength": 0.3781,
       "intensity": 2,
       "lane": 0,
-      "centroidHz": 1782.2
+      "centroidHz": 1782.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 71.9467,
       "strength": 0.2777,
       "intensity": 2,
       "lane": 0,
-      "centroidHz": 1630.2
+      "centroidHz": 1630.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 72.352,
       "strength": 0.2703,
       "intensity": 2,
       "lane": 0,
-      "centroidHz": 1946.0
+      "centroidHz": 1946.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 72.5547,
       "strength": 0.4252,
       "intensity": 2,
       "lane": 0,
-      "centroidHz": 2190.5
+      "centroidHz": 2190.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 72.9493,
       "strength": 0.2628,
       "intensity": 2,
       "lane": 0,
-      "centroidHz": 2029.1
+      "centroidHz": 2029.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 73.152,
       "strength": 0.4053,
       "intensity": 2,
       "lane": 0,
-      "centroidHz": 1776.3
+      "centroidHz": 1776.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 75.1467,
       "strength": 0.4487,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3965.6
+      "centroidHz": 3965.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 75.552,
       "strength": 0.4856,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3703.7
+      "centroidHz": 3703.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 75.744,
       "strength": 0.194,
       "intensity": 1,
       "lane": 0,
-      "centroidHz": 2166.3
+      "centroidHz": 2166.3,
+      "duration": 0.8,
+      "noteType": 1
     },
     {
       "time": 75.9573,
       "strength": 0.371,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2552.9
+      "centroidHz": 2552.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 76.3627,
       "strength": 0.1873,
       "intensity": 1,
       "lane": 1,
-      "centroidHz": 2349.4
+      "centroidHz": 2349.4,
+      "duration": 0.0,
+      "noteType": 0
+    },
+    {
+      "time": 76.544,
+      "strength": 0.194,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2166.3,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 76.96,
       "strength": 0.1916,
       "intensity": 1,
       "lane": 0,
-      "centroidHz": 1674.1
+      "centroidHz": 1674.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 77.152,
       "strength": 0.3112,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2796.3
+      "centroidHz": 2796.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 77.3547,
       "strength": 0.2225,
       "intensity": 1,
       "lane": 1,
-      "centroidHz": 2653.6
+      "centroidHz": 2653.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 77.5573,
       "strength": 0.3393,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2524.1
+      "centroidHz": 2524.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 78.3467,
       "strength": 0.4844,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4464.2
+      "centroidHz": 4464.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 81.1413,
       "strength": 0.1671,
       "intensity": 1,
       "lane": 3,
-      "centroidHz": 4778.4
+      "centroidHz": 4778.4,
+      "duration": 0.8,
+      "noteType": 1
     },
     {
       "time": 81.5467,
       "strength": 0.566,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 4012.8
+      "centroidHz": 4012.8,
+      "duration": 0.0,
+      "noteType": 0
+    },
+    {
+      "time": 81.9413,
+      "strength": 0.1671,
+      "intensity": 1,
+      "lane": 3,
+      "centroidHz": 4778.4,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 81.952,
       "strength": 0.4873,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3672.5
+      "centroidHz": 3672.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 82.144,
       "strength": 0.1933,
       "intensity": 1,
       "lane": 0,
-      "centroidHz": 2240.7
+      "centroidHz": 2240.7,
+      "duration": 0.8,
+      "noteType": 1
     },
     {
       "time": 82.3573,
       "strength": 0.3651,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2614.1
+      "centroidHz": 2614.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 82.7627,
       "strength": 0.182,
       "intensity": 1,
       "lane": 1,
-      "centroidHz": 2419.4
+      "centroidHz": 2419.4,
+      "duration": 0.0,
+      "noteType": 0
+    },
+    {
+      "time": 82.944,
+      "strength": 0.1933,
+      "intensity": 1,
+      "lane": 0,
+      "centroidHz": 2240.7,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 83.36,
       "strength": 0.1928,
       "intensity": 1,
       "lane": 0,
-      "centroidHz": 1738.5
+      "centroidHz": 1738.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 83.552,
       "strength": 0.3062,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2802.3
+      "centroidHz": 2802.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 83.7547,
       "strength": 0.2259,
       "intensity": 1,
       "lane": 1,
-      "centroidHz": 2649.3
+      "centroidHz": 2649.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 83.9573,
       "strength": 0.3486,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2505.2
+      "centroidHz": 2505.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 84.7467,
       "strength": 0.468,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4487.6
+      "centroidHz": 4487.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 87.9467,
       "strength": 0.5945,
       "intensity": 3,
       "lane": 3,
-      "centroidHz": 4542.9
+      "centroidHz": 4542.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 88.1493,
       "strength": 0.4246,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 3006.3
+      "centroidHz": 3006.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 88.7467,
       "strength": 0.2981,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2747.6
+      "centroidHz": 2747.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 88.9493,
       "strength": 0.4426,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 3229.1
+      "centroidHz": 3229.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 89.5467,
       "strength": 0.3288,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 3003.9
+      "centroidHz": 3003.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 89.7493,
       "strength": 0.4654,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 3123.2
+      "centroidHz": 3123.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 90.3467,
       "strength": 0.3358,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3423.2
+      "centroidHz": 3423.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 90.5493,
       "strength": 0.569,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 3794.1
+      "centroidHz": 3794.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 90.752,
       "strength": 0.4237,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2944.5
+      "centroidHz": 2944.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 90.944,
       "strength": 0.2896,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3808.7
+      "centroidHz": 3808.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 91.1467,
       "strength": 0.5209,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 4041.5
+      "centroidHz": 4041.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 91.3493,
       "strength": 0.4012,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3571.6
+      "centroidHz": 3571.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 91.9467,
       "strength": 0.3203,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3783.3
+      "centroidHz": 3783.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 92.1493,
       "strength": 0.4185,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3731.5
+      "centroidHz": 3731.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 92.544,
       "strength": 0.2381,
       "intensity": 1,
       "lane": 2,
-      "centroidHz": 4282.9
+      "centroidHz": 4282.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 92.7467,
       "strength": 0.3693,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3981.9
+      "centroidHz": 3981.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 92.9493,
       "strength": 0.4499,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3784.1
+      "centroidHz": 3784.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 93.248,
       "strength": 0.2664,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 4241.6
+      "centroidHz": 4241.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 93.5467,
       "strength": 0.3134,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 4196.4
+      "centroidHz": 4196.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 93.7493,
       "strength": 0.4199,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3979.7
+      "centroidHz": 3979.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 94.048,
       "strength": 0.2711,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 4354.1
+      "centroidHz": 4354.1,
+      "duration": 0.8,
+      "noteType": 1
     },
     {
       "time": 94.3467,
       "strength": 0.5191,
       "intensity": 3,
       "lane": 3,
-      "centroidHz": 4531.5
+      "centroidHz": 4531.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 94.6453,
       "strength": 0.2898,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4610.3
+      "centroidHz": 4610.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 94.848,
       "strength": 0.2776,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4761.3
+      "centroidHz": 4761.3,
+      "duration": 0.0,
+      "noteType": 0
+    },
+    {
+      "time": 94.848,
+      "strength": 0.2711,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 4354.1,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 95.2427,
       "strength": 0.277,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4865.6
+      "centroidHz": 4865.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 95.6373,
       "strength": 0.3078,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4598.3
+      "centroidHz": 4598.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 95.84,
       "strength": 0.3067,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4842.9
+      "centroidHz": 4842.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 96.0427,
       "strength": 0.3046,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4509.7
+      "centroidHz": 4509.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 96.2453,
       "strength": 0.2955,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4963.0
+      "centroidHz": 4963.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 96.544,
       "strength": 0.3602,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 5054.7
+      "centroidHz": 5054.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 96.8427,
       "strength": 0.3151,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 5283.1
+      "centroidHz": 5283.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 97.0453,
       "strength": 0.307,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 5131.7
+      "centroidHz": 5131.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 97.248,
       "strength": 0.3751,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 5090.7
+      "centroidHz": 5090.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 97.5467,
       "strength": 0.3259,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 5571.3
+      "centroidHz": 5571.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 100.6933,
       "strength": 0.3372,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 5527.7
+      "centroidHz": 5527.7,
+      "duration": 0.8,
+      "noteType": 1
+    },
+    {
+      "time": 101.4933,
+      "strength": 0.3372,
+      "intensity": 2,
+      "lane": 3,
+      "centroidHz": 5527.7,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 104.0853,
       "strength": 0.3146,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3706.1
+      "centroidHz": 3706.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 104.352,
       "strength": 0.3238,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2675.9
+      "centroidHz": 2675.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 104.6187,
       "strength": 0.2431,
       "intensity": 1,
       "lane": 1,
-      "centroidHz": 2848.9
+      "centroidHz": 2848.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 105.152,
       "strength": 0.2994,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2552.0
+      "centroidHz": 2552.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 105.5467,
       "strength": 0.4513,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4854.0
+      "centroidHz": 4854.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 105.8133,
       "strength": 0.4587,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4792.9
+      "centroidHz": 4792.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 106.208,
       "strength": 0.3176,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 5601.0
+      "centroidHz": 5601.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 106.88,
       "strength": 0.6473,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 4308.0
+      "centroidHz": 4308.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 107.1467,
       "strength": 0.8808,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4499.0
+      "centroidHz": 4499.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 107.4133,
       "strength": 0.6331,
       "intensity": 3,
       "lane": 3,
-      "centroidHz": 4393.2
+      "centroidHz": 4393.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 107.9467,
       "strength": 0.7777,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3894.2
+      "centroidHz": 3894.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 108.3413,
       "strength": 0.8043,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4021.6
+      "centroidHz": 4021.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 108.7467,
       "strength": 0.7833,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3943.0
+      "centroidHz": 3943.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 109.1413,
       "strength": 0.8361,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3978.8
+      "centroidHz": 3978.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 109.5467,
       "strength": 0.8054,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3973.7
+      "centroidHz": 3973.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 109.9413,
       "strength": 0.8105,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4237.8
+      "centroidHz": 4237.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 110.3467,
       "strength": 0.7956,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3946.7
+      "centroidHz": 3946.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 110.7413,
       "strength": 0.8659,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4010.7
+      "centroidHz": 4010.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 111.1467,
       "strength": 0.8021,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3922.2
+      "centroidHz": 3922.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 111.5413,
       "strength": 0.8595,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4024.2
+      "centroidHz": 4024.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 111.9467,
       "strength": 0.8067,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3948.8
+      "centroidHz": 3948.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 112.3413,
       "strength": 0.8779,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4018.0
+      "centroidHz": 4018.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 112.7467,
       "strength": 0.8551,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3937.2
+      "centroidHz": 3937.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 113.1413,
       "strength": 0.8652,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4309.3
+      "centroidHz": 4309.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 113.5467,
       "strength": 0.8207,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4062.2
+      "centroidHz": 4062.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 113.9413,
       "strength": 0.7775,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3860.8
+      "centroidHz": 3860.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 114.3467,
       "strength": 0.8369,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4248.7
+      "centroidHz": 4248.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 114.7413,
       "strength": 0.879,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4218.3
+      "centroidHz": 4218.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 115.1467,
       "strength": 0.8331,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4276.6
+      "centroidHz": 4276.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 115.5413,
       "strength": 0.8935,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4259.8
+      "centroidHz": 4259.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 115.9467,
       "strength": 0.8429,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4257.8
+      "centroidHz": 4257.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 116.3413,
       "strength": 0.8679,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4327.6
+      "centroidHz": 4327.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 116.7467,
       "strength": 0.829,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4287.4
+      "centroidHz": 4287.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 117.1413,
       "strength": 0.8776,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4246.5
+      "centroidHz": 4246.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 117.5467,
       "strength": 0.8307,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4240.8
+      "centroidHz": 4240.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 117.9413,
       "strength": 0.8001,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4252.5
+      "centroidHz": 4252.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 118.208,
       "strength": 0.5945,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 3863.9
+      "centroidHz": 3863.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 118.4853,
       "strength": 0.3798,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3826.3
+      "centroidHz": 3826.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 118.752,
       "strength": 0.3686,
       "intensity": 2,
       "lane": 2,
-      "centroidHz": 3771.6
+      "centroidHz": 3771.6,
+      "duration": 0.748,
+      "noteType": 1
     },
     {
       "time": 119.0187,
       "strength": 0.2953,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 4790.4
+      "centroidHz": 4790.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 119.2853,
       "strength": 0.3521,
       "intensity": 2,
       "lane": 3,
-      "centroidHz": 6984.2
+      "centroidHz": 6984.2,
+      "duration": 0.0,
+      "noteType": 0
+    },
+    {
+      "time": 119.5,
+      "strength": 0.3686,
+      "intensity": 2,
+      "lane": 2,
+      "centroidHz": 3771.6,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 119.68,
       "strength": 0.5864,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 4013.4
+      "centroidHz": 4013.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 119.9467,
       "strength": 0.7151,
       "intensity": 3,
       "lane": 3,
-      "centroidHz": 4856.0
+      "centroidHz": 4856.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 120.2133,
       "strength": 0.7863,
       "intensity": 4,
       "lane": 3,
-      "centroidHz": 4456.5
+      "centroidHz": 4456.5,
+      "duration": 0.8,
+      "noteType": 1
     },
     {
       "time": 120.7467,
       "strength": 0.8021,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4235.6
+      "centroidHz": 4235.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 121.0133,
       "strength": 0.9184,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3862.2
+      "centroidHz": 3862.2,
+      "duration": 0.0,
+      "noteType": 0
+    },
+    {
+      "time": 121.0133,
+      "strength": 0.7863,
+      "intensity": 4,
+      "lane": 3,
+      "centroidHz": 4456.5,
+      "duration": 0.0,
+      "noteType": 2
     },
     {
       "time": 121.5467,
       "strength": 0.8096,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4271.4
+      "centroidHz": 4271.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 121.8133,
       "strength": 0.961,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4077.9
+      "centroidHz": 4077.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 122.3467,
       "strength": 0.8327,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4230.6
+      "centroidHz": 4230.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 122.6133,
       "strength": 0.9063,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3948.7
+      "centroidHz": 3948.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 123.1467,
       "strength": 0.8207,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4277.0
+      "centroidHz": 4277.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 123.4133,
       "strength": 0.9521,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4057.2
+      "centroidHz": 4057.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 123.9467,
       "strength": 0.8144,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4242.4
+      "centroidHz": 4242.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 124.2133,
       "strength": 0.9358,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3975.8
+      "centroidHz": 3975.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 124.7467,
       "strength": 0.8263,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4272.5
+      "centroidHz": 4272.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 125.0133,
       "strength": 0.9754,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3971.1
+      "centroidHz": 3971.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 125.5467,
       "strength": 0.8565,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4240.2
+      "centroidHz": 4240.2,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 125.8133,
       "strength": 0.9543,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4173.4
+      "centroidHz": 4173.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 126.3467,
       "strength": 0.8117,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4073.5
+      "centroidHz": 4073.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 126.6133,
       "strength": 0.8605,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3849.8
+      "centroidHz": 3849.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 127.1467,
       "strength": 0.8207,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4228.7
+      "centroidHz": 4228.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 127.4133,
       "strength": 0.9232,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3905.4
+      "centroidHz": 3905.4,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 127.808,
       "strength": 0.8243,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3946.9
+      "centroidHz": 3946.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 128.2133,
       "strength": 0.9868,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4185.7
+      "centroidHz": 4185.7,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 128.7467,
       "strength": 0.8225,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4231.0
+      "centroidHz": 4231.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 129.0133,
       "strength": 0.9305,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3945.1
+      "centroidHz": 3945.1,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 129.408,
       "strength": 0.8301,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3917.8
+      "centroidHz": 3917.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 129.8133,
       "strength": 0.9789,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3935.5
+      "centroidHz": 3935.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 130.3467,
       "strength": 0.8051,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 4225.9
+      "centroidHz": 4225.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 130.6133,
       "strength": 0.9399,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3973.0
+      "centroidHz": 3973.0,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 131.008,
       "strength": 0.821,
       "intensity": 4,
       "lane": 2,
-      "centroidHz": 3979.8
+      "centroidHz": 3979.8,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 131.3493,
       "strength": 0.5777,
       "intensity": 3,
       "lane": 2,
-      "centroidHz": 3553.5
+      "centroidHz": 3553.5,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 131.552,
       "strength": 0.3927,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2477.9
+      "centroidHz": 2477.9,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 132.1493,
       "strength": 0.4345,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2882.6
+      "centroidHz": 2882.6,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 132.352,
       "strength": 0.3879,
       "intensity": 2,
       "lane": 1,
-      "centroidHz": 2391.3
+      "centroidHz": 2391.3,
+      "duration": 0.0,
+      "noteType": 0
     },
     {
       "time": 132.5547,
       "strength": 0.2165,
       "intensity": 1,
       "lane": 1,
-      "centroidHz": 2895.7
+      "centroidHz": 2895.7,
+      "duration": 0.0,
+      "noteType": 0
     }
   ]
 }
